@@ -1,0 +1,55 @@
+
+s_wild.png
+size: 471,325
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+juice
+  rotate: true
+  xy: 149, 114
+  size: 209, 151
+  orig: 217, 151
+  offset: 3, 0
+  index: -1
+juicex
+  rotate: true
+  xy: 2, 106
+  size: 217, 145
+  orig: 217, 151
+  offset: 0, 0
+  index: -1
+s_wild_zh
+  rotate: false
+  xy: 302, 182
+  size: 162, 141
+  orig: 250, 233
+  offset: 52, 35
+  index: -1
+shell_b
+  rotate: true
+  xy: 384, 58
+  size: 122, 85
+  orig: 122, 85
+  offset: 0, 0
+  index: -1
+shell_t_close
+  rotate: false
+  xy: 2, 7
+  size: 122, 97
+  orig: 122, 97
+  offset: 0, 0
+  index: -1
+shell_t_open
+  rotate: false
+  xy: 265, 2
+  size: 117, 110
+  orig: 117, 110
+  offset: 0, 0
+  index: -1
+txt_wild_zh
+  rotate: false
+  xy: 126, 9
+  size: 137, 95
+  orig: 212, 124
+  offset: 34, 16
+  index: -1

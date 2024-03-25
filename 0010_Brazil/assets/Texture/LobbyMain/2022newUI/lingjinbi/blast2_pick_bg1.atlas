@@ -1,0 +1,34 @@
+
+blast2_pick_bg1.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coin1
+  rotate: false
+  xy: 2, 692
+  size: 552, 311
+  orig: 552, 311
+  offset: 0, 0
+  index: -1
+coin2
+  rotate: false
+  xy: 2, 2
+  size: 325, 317
+  orig: 325, 317
+  offset: 0, 0
+  index: -1
+coin3
+  rotate: false
+  xy: 2, 321
+  size: 369, 369
+  orig: 369, 369
+  offset: 0, 0
+  index: -1
+coin4
+  rotate: false
+  xy: 556, 721
+  size: 385, 282
+  orig: 385, 282
+  offset: 0, 0
+  index: -1

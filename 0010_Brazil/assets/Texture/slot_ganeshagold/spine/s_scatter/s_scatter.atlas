@@ -1,0 +1,167 @@
+
+s_scatter.png
+size: 282,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bicep_L
+  rotate: false
+  xy: 240, 5
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 183, 393
+  size: 128, 91
+  orig: 170, 190
+  offset: 11, 32
+  index: -1
+ear_L
+  rotate: true
+  xy: 204, 44
+  size: 36, 44
+  orig: 36, 44
+  offset: 0, 0
+  index: -1
+ear_R
+  rotate: true
+  xy: 149, 12
+  size: 35, 44
+  orig: 35, 44
+  offset: 0, 0
+  index: -1
+eye_close_L
+  rotate: false
+  xy: 37, 5
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+eye_close_R
+  rotate: false
+  xy: 27, 4
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+fore_L
+  rotate: false
+  xy: 181, 244
+  size: 54, 88
+  orig: 54, 88
+  offset: 0, 0
+  index: -1
+fore_R
+  rotate: false
+  xy: 237, 261
+  size: 43, 71
+  orig: 43, 71
+  offset: 0, 0
+  index: -1
+fx_bg
+  rotate: false
+  xy: 2, 348
+  size: 179, 173
+  orig: 179, 173
+  offset: 0, 0
+  index: -1
+fx_bg2
+  rotate: false
+  xy: 2, 175
+  size: 177, 171
+  orig: 179, 173
+  offset: 1, 1
+  index: -1
+fx_scatter_01
+  rotate: true
+  xy: 231, 166
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+fx_scatter_02
+  rotate: false
+  xy: 156, 119
+  size: 77, 45
+  orig: 78, 45
+  offset: 0, 0
+  index: -1
+fx_scatter_03
+  rotate: false
+  xy: 2, 19
+  size: 145, 49
+  orig: 147, 49
+  offset: 1, 0
+  index: -1
+fx_scatter_04
+  rotate: true
+  xy: 181, 166
+  size: 76, 48
+  orig: 77, 49
+  offset: 1, 0
+  index: -1
+fx_scatter_05
+  rotate: true
+  xy: 237, 210
+  size: 49, 43
+  orig: 50, 46
+  offset: 1, 0
+  index: -1
+fx_sparkles
+  rotate: true
+  xy: 2, 2
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+fx_txt
+  rotate: false
+  xy: 151, 82
+  size: 103, 35
+  orig: 111, 39
+  offset: 4, 2
+  index: -1
+hand_L
+  rotate: true
+  xy: 195, 9
+  size: 33, 43
+  orig: 33, 43
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 183, 334
+  size: 57, 90
+  orig: 57, 90
+  offset: 0, 0
+  index: -1
+nose
+  rotate: true
+  xy: 151, 49
+  size: 31, 51
+  orig: 31, 51
+  offset: 0, 0
+  index: -1
+shou_L
+  rotate: true
+  xy: 235, 120
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+txt_border
+  rotate: false
+  xy: 2, 120
+  size: 152, 53
+  orig: 152, 53
+  offset: 0, 0
+  index: -1
+txt_scatter2
+  rotate: false
+  xy: 2, 70
+  size: 147, 48
+  orig: 147, 48
+  offset: 0, 0
+  index: -1

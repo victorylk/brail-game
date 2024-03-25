@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5288182c-3810-4121-ab11-980fbb148e4a",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 1117,
+  "height": 662,
+  "platformSettings": {},
+  "subMetas": {
+    "game_logo_shibo": {
+      "ver": "1.0.6",
+      "uuid": "1e8a5fa8-1f12-4488-98ac-bc37eca4e85d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5288182c-3810-4121-ab11-980fbb148e4a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 4,
+      "offsetY": 2.5,
+      "trimX": 68,
+      "trimY": 42,
+      "width": 989,
+      "height": 573,
+      "rawWidth": 1117,
+      "rawHeight": 662,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

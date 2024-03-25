@@ -1,0 +1,195 @@
+
+ui_crowd.png
+size: 1619,803
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 1125, 336
+  size: 289, 209
+  orig: 289, 209
+  offset: 0, 0
+  index: -1
+01x
+  rotate: false
+  xy: 2, 373
+  size: 289, 209
+  orig: 289, 209
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 293, 354
+  size: 253, 228
+  orig: 253, 228
+  offset: 0, 0
+  index: -1
+02x
+  rotate: false
+  xy: 2, 143
+  size: 253, 228
+  orig: 253, 228
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 1223, 629
+  size: 394, 172
+  orig: 394, 172
+  offset: 0, 0
+  index: -1
+03x
+  rotate: false
+  xy: 729, 488
+  size: 394, 172
+  orig: 394, 172
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 257, 190
+  size: 292, 162
+  orig: 292, 162
+  offset: 0, 0
+  index: -1
+04x
+  rotate: false
+  xy: 1051, 172
+  size: 292, 162
+  orig: 292, 162
+  offset: 0, 0
+  index: -1
+05
+  rotate: false
+  xy: 490, 15
+  size: 271, 149
+  orig: 271, 149
+  offset: 0, 0
+  index: -1
+05x
+  rotate: false
+  xy: 1345, 158
+  size: 271, 149
+  orig: 271, 149
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 808, 254
+  size: 241, 232
+  orig: 241, 232
+  offset: 0, 0
+  index: -1
+06x
+  rotate: false
+  xy: 551, 166
+  size: 241, 232
+  orig: 241, 232
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 794, 99
+  size: 225, 153
+  orig: 225, 153
+  offset: 0, 0
+  index: -1
+07x
+  rotate: false
+  xy: 1021, 17
+  size: 225, 153
+  orig: 225, 153
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 1416, 469
+  size: 135, 158
+  orig: 135, 158
+  offset: 0, 0
+  index: -1
+08x
+  rotate: false
+  xy: 1416, 309
+  size: 135, 158
+  orig: 135, 158
+  offset: 0, 0
+  index: -1
+09
+  rotate: false
+  xy: 548, 400
+  size: 258, 86
+  orig: 258, 86
+  offset: 0, 0
+  index: -1
+09x
+  rotate: false
+  xy: 1248, 70
+  size: 258, 86
+  orig: 258, 86
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 1171, 561
+  size: 242, 66
+  orig: 242, 66
+  offset: 0, 0
+  index: -1
+bgx
+  rotate: false
+  xy: 1248, 2
+  size: 242, 66
+  orig: 242, 66
+  offset: 0, 0
+  index: -1
+fx_camera_flash
+  rotate: false
+  xy: 548, 488
+  size: 108, 94
+  orig: 108, 94
+  offset: 0, 0
+  index: -1
+fx_dust
+  rotate: false
+  xy: 2, 48
+  size: 242, 93
+  orig: 242, 93
+  offset: 0, 0
+  index: -1
+fx_flare
+  rotate: false
+  xy: 729, 662
+  size: 492, 139
+  orig: 492, 139
+  offset: 0, 0
+  index: -1
+fx_light
+  rotate: false
+  xy: 246, 49
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+fx_light02
+  rotate: false
+  xy: 763, 7
+  size: 242, 90
+  orig: 242, 90
+  offset: 0, 0
+  index: -1
+fx_spotlight
+  rotate: false
+  xy: 1125, 547
+  size: 44, 113
+  orig: 44, 113
+  offset: 0, 0
+  index: -1
+rope
+  rotate: false
+  xy: 2, 584
+  size: 725, 217
+  orig: 725, 217
+  offset: 0, 0
+  index: -1

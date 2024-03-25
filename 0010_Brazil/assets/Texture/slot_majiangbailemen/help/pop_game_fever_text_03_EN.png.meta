@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "03fd2d82-97c0-4ed9-af9b-a9cd92f47895",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 612,
+  "height": 646,
+  "platformSettings": {},
+  "subMetas": {
+    "pop_game_fever_text_03_EN": {
+      "ver": "1.0.6",
+      "uuid": "1eb1b2af-88cd-400a-ae8b-40e7d2cc9fba",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "03fd2d82-97c0-4ed9-af9b-a9cd92f47895",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -5.5,
+      "trimX": 7,
+      "trimY": 52,
+      "width": 596,
+      "height": 553,
+      "rawWidth": 612,
+      "rawHeight": 646,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "5a4bec7a-46a0-45a5-af0b-6620cc3931e8",
+  "importer": "asset",
+  "rawTextureUuid": "14b894aa-8c61-495a-9d80-eee0182a56c1",
+  "size": {
+    "width": 587,
+    "height": 118
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "5_of_a_kind.png": {
+      "ver": "1.0.6",
+      "uuid": "d4a9cd42-8a26-4a46-8d96-3621a7ae5ca4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "14b894aa-8c61-495a-9d80-eee0182a56c1",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 587,
+      "height": 118,
+      "rawWidth": 587,
+      "rawHeight": 118,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

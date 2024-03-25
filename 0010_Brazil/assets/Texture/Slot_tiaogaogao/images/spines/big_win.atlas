@@ -1,0 +1,153 @@
+
+big_win.png
+size: 1736,1732
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprite_1
+  rotate: false
+  xy: 577, 102
+  size: 252, 222
+  orig: 285, 239
+  offset: 9, 9
+  index: -1
+Sprite_2
+  rotate: false
+  xy: 1465, 743
+  size: 236, 230
+  orig: 285, 239
+  offset: 0, 9
+  index: -1
+Sprite_3
+  rotate: false
+  xy: 1465, 513
+  size: 228, 228
+  orig: 285, 239
+  offset: 9, 0
+  index: -1
+Sprite_4
+  rotate: false
+  xy: 1642, 1324
+  size: 62, 192
+  orig: 285, 239
+  offset: 104, 5
+  index: -1
+jinbi_01 (4)
+  rotate: false
+  xy: 1642, 1324
+  size: 62, 192
+  orig: 267, 229
+  offset: 117, 32
+  index: -1
+Sprite_5
+  rotate: true
+  xy: 2, 7
+  size: 138, 204
+  orig: 285, 239
+  offset: 80, 9
+  index: -1
+Sprite_6
+  rotate: false
+  xy: 1056, 287
+  size: 260, 222
+  orig: 285, 239
+  offset: 25, 9
+  index: -1
+jinbi_01 (1)
+  rotate: false
+  xy: 1056, 61
+  size: 247, 224
+  orig: 267, 229
+  offset: 1, 0
+  index: -1
+jinbi_01 (2)
+  rotate: false
+  xy: 1521, 83
+  size: 150, 200
+  orig: 267, 229
+  offset: 69, 24
+  index: -1
+jinbi_01 (3)
+  rotate: false
+  xy: 1642, 1518
+  size: 90, 212
+  orig: 267, 229
+  offset: 98, 17
+  index: -1
+jinbi_01 (5)
+  rotate: true
+  xy: 208, 47
+  size: 98, 194
+  orig: 267, 229
+  offset: 105, 29
+  index: -1
+jinbi_01 (6)
+  rotate: false
+  xy: 1540, 311
+  size: 164, 200
+  orig: 267, 229
+  offset: 71, 23
+  index: -1
+jinbi_01 (7)
+  rotate: false
+  xy: 1318, 285
+  size: 220, 224
+  orig: 267, 229
+  offset: 33, 0
+  index: -1
+jinbi_01 (8)
+  rotate: true
+  xy: 831, 76
+  size: 248, 223
+  orig: 267, 229
+  offset: 19, 0
+  index: -1
+lizi_bd_01
+  rotate: false
+  xy: 1305, 114
+  size: 214, 169
+  orig: 214, 169
+  offset: 0, 0
+  index: -1
+lz_di
+  rotate: false
+  xy: 1444, 975
+  size: 273, 308
+  orig: 273, 308
+  offset: 0, 0
+  index: -1
+lz_gg
+  rotate: false
+  xy: 1056, 511
+  size: 407, 407
+  orig: 407, 407
+  offset: 0, 0
+  index: -1
+tgg_zj_big
+  rotate: true
+  xy: 1444, 1285
+  size: 445, 196
+  orig: 445, 196
+  offset: 0, 0
+  index: -1
+tgg_zj_gs
+  rotate: false
+  xy: 2, 326
+  size: 1052, 592
+  orig: 1052, 592
+  offset: 0, 0
+  index: -1
+tgg_zj_win
+  rotate: false
+  xy: 2, 147
+  size: 573, 177
+  orig: 573, 177
+  offset: 0, 0
+  index: -1
+zz
+  rotate: false
+  xy: 2, 920
+  size: 1440, 810
+  orig: 1440, 810
+  offset: 0, 0
+  index: -1

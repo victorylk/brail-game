@@ -1,0 +1,125 @@
+
+ui_top.png
+size: 1606,1256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 945
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+base0
+  rotate: false
+  xy: 2, 634
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+base0_2
+  rotate: false
+  xy: 2, 323
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+base2
+  rotate: false
+  xy: 729, 945
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+fx_dust_bg
+  rotate: false
+  xy: 729, 634
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+fx_dust_fg
+  rotate: false
+  xy: 917, 2
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+fx_dust_mg
+  rotate: false
+  xy: 2, 12
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+fx_dust_mg0
+  rotate: false
+  xy: 729, 323
+  size: 725, 309
+  orig: 725, 309
+  offset: 0, 0
+  index: -1
+fx_ray
+  rotate: false
+  xy: 729, 250
+  size: 507, 71
+  orig: 507, 71
+  offset: 0, 0
+  index: -1
+fx_ray2
+  rotate: false
+  xy: 729, 177
+  size: 507, 71
+  orig: 507, 71
+  offset: 0, 0
+  index: -1
+fx_sideglow_2
+  rotate: false
+  xy: 1238, 12
+  size: 182, 309
+  orig: 182, 309
+  offset: 0, 0
+  index: -1
+fx_sideglow_l
+  rotate: false
+  xy: 1422, 12
+  size: 182, 309
+  orig: 182, 309
+  offset: 0, 0
+  index: -1
+light_01
+  rotate: false
+  xy: 729, 24
+  size: 186, 151
+  orig: 186, 151
+  offset: 0, 0
+  index: -1
+light_02x
+  rotate: false
+  xy: 1456, 1104
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+light_02x_mg
+  rotate: false
+  xy: 1092, 25
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+light_03
+  rotate: false
+  xy: 1456, 1178
+  size: 133, 76
+  orig: 133, 76
+  offset: 0, 0
+  index: -1
+light_03_mg
+  rotate: false
+  xy: 1092, 99
+  size: 133, 76
+  orig: 133, 76
+  offset: 0, 0
+  index: -1

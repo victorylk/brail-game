@@ -1,0 +1,111 @@
+
+hongquan.png
+size: 242,242
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/hongquan
+  rotate: false
+  xy: 2, 180
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+images/jinquan/jinquan_00
+  rotate: false
+  xy: 70, 2
+  size: 22, 17
+  orig: 66, 60
+  offset: 2, 12
+  index: -1
+images/jinquan/jinquan_01
+  rotate: true
+  xy: 206, 136
+  size: 24, 25
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_02
+  rotate: false
+  xy: 206, 162
+  size: 28, 35
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_03
+  rotate: false
+  xy: 206, 199
+  size: 31, 41
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_04
+  rotate: false
+  xy: 138, 87
+  size: 53, 48
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_05
+  rotate: false
+  xy: 70, 21
+  size: 65, 48
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_06
+  rotate: false
+  xy: 2, 6
+  size: 66, 48
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_07
+  rotate: false
+  xy: 70, 71
+  size: 66, 48
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_08
+  rotate: false
+  xy: 138, 137
+  size: 66, 48
+  orig: 66, 60
+  offset: 0, 12
+  index: -1
+images/jinquan/jinquan_09
+  rotate: false
+  xy: 138, 187
+  size: 66, 53
+  orig: 66, 60
+  offset: 0, 7
+  index: -1
+images/jinquan/jinquan_10
+  rotate: false
+  xy: 70, 121
+  size: 66, 57
+  orig: 66, 60
+  offset: 0, 3
+  index: -1
+images/jinquan/jinquan_11
+  rotate: false
+  xy: 2, 118
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+images/jinquan/jinquan_12
+  rotate: false
+  xy: 70, 180
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1
+images/quanquan_00
+  rotate: false
+  xy: 2, 56
+  size: 66, 60
+  orig: 66, 60
+  offset: 0, 0
+  index: -1

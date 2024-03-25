@@ -1,0 +1,55 @@
+
+preloader_777.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+7
+  rotate: false
+  xy: 173, 95
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+Loading
+  rotate: false
+  xy: 1, 1
+  size: 79, 26
+  orig: 79, 26
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 173, 77
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+slot_a
+  rotate: false
+  xy: 81, 7
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+slot_a_glow
+  rotate: false
+  xy: 81, 7
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+slot_pan
+  rotate: false
+  xy: 1, 28
+  size: 171, 92
+  orig: 171, 92
+  offset: 0, 0
+  index: -1
+text2
+  rotate: false
+  xy: 201, 111
+  size: 11, 9
+  orig: 11, 9
+  offset: 0, 0
+  index: -1

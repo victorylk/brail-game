@@ -1,0 +1,223 @@
+
+diyingfen.png
+size: 1171,1171
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/g/g_00
+  rotate: false
+  xy: 527, 293
+  size: 526, 86
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_01
+  rotate: false
+  xy: 530, 481
+  size: 526, 94
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_02
+  rotate: false
+  xy: 2, 482
+  size: 526, 95
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_03
+  rotate: false
+  xy: 2, 677
+  size: 526, 96
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_04
+  rotate: false
+  xy: 530, 776
+  size: 526, 96
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_05
+  rotate: false
+  xy: 2, 1072
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_06
+  rotate: false
+  xy: 2, 579
+  size: 526, 96
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_07
+  rotate: false
+  xy: 2, 973
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_08
+  rotate: false
+  xy: 530, 1072
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_09
+  rotate: false
+  xy: 2, 874
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_10
+  rotate: false
+  xy: 530, 973
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_11
+  rotate: false
+  xy: 2, 775
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_12
+  rotate: false
+  xy: 530, 874
+  size: 526, 97
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_13
+  rotate: false
+  xy: 530, 676
+  size: 524, 98
+  orig: 780, 1075
+  offset: 129, 76
+  index: -1
+images/g/g_14
+  rotate: false
+  xy: 530, 577
+  size: 524, 97
+  orig: 780, 1075
+  offset: 129, 76
+  index: -1
+images/g/g_15
+  rotate: false
+  xy: 2, 383
+  size: 524, 97
+  orig: 780, 1075
+  offset: 129, 76
+  index: -1
+images/g/g_16
+  rotate: false
+  xy: 2, 284
+  size: 523, 97
+  orig: 780, 1075
+  offset: 129, 76
+  index: -1
+images/g/g_17
+  rotate: false
+  xy: 2, 184
+  size: 522, 98
+  orig: 780, 1075
+  offset: 129, 76
+  index: -1
+images/g/g_18
+  rotate: false
+  xy: 2, 84
+  size: 522, 98
+  orig: 780, 1075
+  offset: 128, 76
+  index: -1
+images/g/g_19
+  rotate: false
+  xy: 528, 381
+  size: 521, 98
+  orig: 780, 1075
+  offset: 127, 76
+  index: -1
+images/g/g_20
+  rotate: false
+  xy: 2, 2
+  size: 450, 80
+  orig: 780, 1075
+  offset: 185, 93
+  index: -1
+images/g/g_21
+  rotate: true
+  xy: 1058, 719
+  size: 450, 79
+  orig: 780, 1075
+  offset: 185, 94
+  index: -1
+images/g/g_22
+  rotate: false
+  xy: 527, 224
+  size: 397, 67
+  orig: 780, 1075
+  offset: 237, 106
+  index: -1
+images/g/g_23
+  rotate: false
+  xy: 526, 155
+  size: 394, 67
+  orig: 780, 1075
+  offset: 240, 107
+  index: -1
+images/g/g_24
+  rotate: false
+  xy: 526, 104
+  size: 394, 49
+  orig: 780, 1075
+  offset: 240, 123
+  index: -1
+images/g/g_25
+  rotate: false
+  xy: 526, 59
+  size: 394, 43
+  orig: 780, 1075
+  offset: 239, 128
+  index: -1
+images/g/g_26
+  rotate: false
+  xy: 454, 15
+  size: 296, 42
+  orig: 780, 1075
+  offset: 239, 129
+  index: -1
+images/g/g_27
+  rotate: false
+  xy: 752, 15
+  size: 296, 42
+  orig: 780, 1075
+  offset: 239, 130
+  index: -1
+images/g/g_28
+  rotate: true
+  xy: 1058, 438
+  size: 279, 41
+  orig: 780, 1075
+  offset: 238, 131
+  index: -1
+images/g/g_29
+  rotate: true
+  xy: 1101, 438
+  size: 279, 40
+  orig: 780, 1075
+  offset: 238, 133
+  index: -1
+images/sc
+  rotate: false
+  xy: 926, 111
+  size: 179, 180
+  orig: 179, 202
+  offset: 0, 22
+  index: -1

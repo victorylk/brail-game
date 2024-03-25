@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "980c4e79-0c91-4805-bf71-629ceeb81757",
+  "importer": "asset",
+  "rawTextureUuid": "9c680164-b477-4acc-86c5-fe9e2b8de7d3",
+  "size": {
+    "width": 180,
+    "height": 180
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "game_icon.png": {
+      "ver": "1.0.6",
+      "uuid": "15190442-33e0-4ef2-a83c-12437e4e0f51",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9c680164-b477-4acc-86c5-fe9e2b8de7d3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 180,
+      "height": 180,
+      "rawWidth": 180,
+      "rawHeight": 180,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

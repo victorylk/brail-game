@@ -1,0 +1,300 @@
+
+tc_fg_bg.png
+size: 1937,1911
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+aa_5
+  rotate: true
+  xy: 2, 6
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+ciguang_9
+  rotate: false
+  xy: 978, 710
+  size: 495, 470
+  orig: 512, 512
+  offset: 1, 41
+  index: -1
+fg_di
+  rotate: false
+  xy: 910, 1182
+  size: 719, 727
+  orig: 719, 727
+  offset: 0, 0
+  index: -1
+fg_di_board2
+  rotate: false
+  xy: 2, 968
+  size: 906, 941
+  orig: 906, 941
+  offset: 0, 0
+  index: -1
+fg_hua_l
+  rotate: false
+  xy: 1765, 846
+  size: 158, 126
+  orig: 158, 126
+  offset: 0, 0
+  index: -1
+fg_js_board_3
+  rotate: true
+  xy: 544, 296
+  size: 670, 432
+  orig: 670, 432
+  offset: 0, 0
+  index: -1
+fg_js_coin_frame
+  rotate: true
+  xy: 1631, 1149
+  size: 760, 213
+  orig: 760, 213
+  offset: 0, 0
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_00
+  rotate: true
+  xy: 1562, 15
+  size: 144, 89
+  orig: 380, 107
+  offset: 119, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_01
+  rotate: true
+  xy: 1653, 12
+  size: 164, 90
+  orig: 380, 107
+  offset: 109, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_02
+  rotate: true
+  xy: 1814, 452
+  size: 181, 90
+  orig: 380, 107
+  offset: 100, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_03
+  rotate: true
+  xy: 1270, 20
+  size: 197, 89
+  orig: 380, 107
+  offset: 92, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_04
+  rotate: true
+  xy: 1835, 237
+  size: 213, 89
+  orig: 380, 107
+  offset: 84, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_05
+  rotate: true
+  xy: 1744, 211
+  size: 229, 89
+  orig: 380, 107
+  offset: 76, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_06
+  rotate: true
+  xy: 1653, 178
+  size: 245, 89
+  orig: 380, 107
+  offset: 68, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_07
+  rotate: true
+  xy: 1562, 161
+  size: 262, 89
+  orig: 380, 107
+  offset: 59, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_08
+  rotate: true
+  xy: 1471, 66
+  size: 278, 89
+  orig: 380, 107
+  offset: 51, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_09
+  rotate: true
+  xy: 1846, 974
+  size: 294, 89
+  orig: 380, 107
+  offset: 43, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_10
+  rotate: true
+  xy: 1846, 1270
+  size: 310, 89
+  orig: 380, 107
+  offset: 35, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_11
+  rotate: true
+  xy: 1846, 1582
+  size: 327, 89
+  orig: 380, 107
+  offset: 26, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_12
+  rotate: true
+  xy: 1720, 442
+  size: 343, 92
+  orig: 380, 107
+  offset: 18, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_13
+  rotate: true
+  xy: 1575, 788
+  size: 359, 93
+  orig: 380, 107
+  offset: 10, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_14
+  rotate: false
+  xy: 978, 219
+  size: 360, 93
+  orig: 380, 107
+  offset: 9, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_15
+  rotate: true
+  xy: 1670, 787
+  size: 360, 93
+  orig: 380, 107
+  offset: 9, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_16
+  rotate: false
+  xy: 908, 26
+  size: 360, 94
+  orig: 380, 107
+  offset: 9, 11
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_17
+  rotate: false
+  xy: 908, 122
+  size: 360, 95
+  orig: 380, 107
+  offset: 9, 10
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_18
+  rotate: false
+  xy: 544, 196
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_19
+  rotate: false
+  xy: 978, 610
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_20
+  rotate: true
+  xy: 1475, 818
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_21
+  rotate: false
+  xy: 544, 96
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_22
+  rotate: false
+  xy: 978, 510
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_23
+  rotate: false
+  xy: 978, 410
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_24
+  rotate: false
+  xy: 978, 314
+  size: 362, 94
+  orig: 380, 107
+  offset: 8, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_25
+  rotate: true
+  xy: 1342, 346
+  size: 362, 94
+  orig: 380, 107
+  offset: 8, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_26
+  rotate: false
+  xy: 544, 2
+  size: 362, 92
+  orig: 380, 107
+  offset: 8, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_27
+  rotate: true
+  xy: 1438, 346
+  size: 362, 92
+  orig: 380, 107
+  offset: 8, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_28
+  rotate: true
+  xy: 1532, 426
+  size: 360, 92
+  orig: 380, 107
+  offset: 9, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_29
+  rotate: true
+  xy: 1626, 425
+  size: 360, 92
+  orig: 380, 107
+  offset: 9, 13
+  index: -1
+fg_ks_btn_collect_common
+  rotate: true
+  xy: 1361, 36
+  size: 308, 108
+  orig: 308, 108
+  offset: 0, 0
+  index: -1
+glow3
+  rotate: false
+  xy: 910, 1140
+  size: 43, 40
+  orig: 50, 50
+  offset: 6, 5
+  index: -1
+hua_r
+  rotate: true
+  xy: 1814, 635
+  size: 209, 94
+  orig: 209, 95
+  offset: 0, 0
+  index: -1
+hua_y_r
+  rotate: false
+  xy: 908, 274
+  size: 30, 20
+  orig: 30, 21
+  offset: 0, 0
+  index: -1
+xd
+  rotate: true
+  xy: 1342, 325
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "3532b7af-4980-4067-b6f4-e1ac3b162886",
+  "importer": "asset",
+  "rawTextureUuid": "929dd223-d65d-4df0-a244-fe40c2e0359f",
+  "size": {
+    "width": 79,
+    "height": 78
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "respin_vfx_m_screen.png": {
+      "ver": "1.0.6",
+      "uuid": "ad86d47c-a00c-4feb-b77d-ba6253312653",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "929dd223-d65d-4df0-a244-fe40c2e0359f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 79,
+      "height": 78,
+      "rawWidth": 79,
+      "rawHeight": 78,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

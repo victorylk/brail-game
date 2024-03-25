@@ -1,0 +1,55 @@
+
+h_powder.png
+size: 260,140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bowl
+  rotate: false
+  xy: 2, 62
+  size: 115, 76
+  orig: 126, 131
+  offset: 0, 29
+  index: -1
+bowl_powder
+  rotate: false
+  xy: 119, 86
+  size: 93, 52
+  orig: 126, 131
+  offset: 13, 79
+  index: -1
+fx_powder
+  rotate: false
+  xy: 119, 30
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+fx_powderx
+  rotate: false
+  xy: 175, 2
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+powder
+  rotate: false
+  xy: 2, 12
+  size: 114, 48
+  orig: 126, 131
+  offset: 12, 0
+  index: -1
+scoop
+  rotate: true
+  xy: 214, 63
+  size: 75, 44
+  orig: 126, 131
+  offset: 7, 5
+  index: -1
+scoop_powder
+  rotate: false
+  xy: 175, 58
+  size: 36, 26
+  orig: 126, 131
+  offset: 56, 5
+  index: -1

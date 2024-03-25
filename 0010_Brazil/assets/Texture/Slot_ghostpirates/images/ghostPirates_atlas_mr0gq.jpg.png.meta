@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a67a3607-d46c-4b07-9a7e-08a3888b2bcb",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 720,
+  "height": 1280,
+  "platformSettings": {},
+  "subMetas": {
+    "ghostPirates_atlas_mr0gq.jpg": {
+      "ver": "1.0.6",
+      "uuid": "713e2b0b-30a7-48cd-8c09-eae3911ba57d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a67a3607-d46c-4b07-9a7e-08a3888b2bcb",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 720,
+      "height": 1280,
+      "rawWidth": 720,
+      "rawHeight": 1280,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

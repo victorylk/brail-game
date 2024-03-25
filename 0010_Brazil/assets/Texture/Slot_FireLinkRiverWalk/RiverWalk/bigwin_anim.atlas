@@ -1,0 +1,470 @@
+
+bigwin_anim.png
+size: 2048,2025
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinbi_0001
+  rotate: false
+  xy: 1510, 1003
+  size: 122, 137
+  orig: 1920, 1280
+  offset: 904, 585
+  index: -1
+jinbi_0023
+  rotate: false
+  xy: 1189, 1142
+  size: 857, 881
+  orig: 1920, 1280
+  offset: 546, 200
+  index: -1
+jinbi_0029
+  rotate: true
+  xy: 1042, 47
+  size: 954, 1004
+  orig: 1920, 1280
+  offset: 494, 89
+  index: -1
+jinbi_0031
+  rotate: true
+  xy: 2, 2
+  size: 999, 1038
+  orig: 1920, 1280
+  offset: 468, 52
+  index: -1
+jinbi_0039
+  rotate: false
+  xy: 2, 1003
+  size: 1185, 1020
+  orig: 1920, 1280
+  offset: 368, 0
+  index: -1
+jinbiguang_00098
+  rotate: false
+  xy: 1189, 1023
+  size: 319, 117
+  orig: 478, 319
+  offset: 83, 111
+  index: -1
+jinbiguang_00099
+  rotate: false
+  xy: 1981, 1087
+  size: 52, 53
+  orig: 478, 319
+  offset: 189, 166
+  index: -1
+jinbiguang_00100
+  rotate: false
+  xy: 1981, 1087
+  size: 52, 53
+  orig: 478, 319
+  offset: 189, 166
+  index: -1
+uiguang_00008
+  rotate: false
+  xy: 1634, 1018
+  size: 173, 122
+  orig: 220, 217
+  offset: 30, 29
+  index: -1
+uiguang_00009
+  rotate: false
+  xy: 1809, 1019
+  size: 170, 121
+  orig: 220, 217
+  offset: 30, 29
+  index: -1
+
+bigwin_anim2.png
+size: 2024,2041
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_global_dujiaoxian_xulifangsheguagn_02
+  rotate: false
+  xy: 1790, 102
+  size: 228, 217
+  orig: 240, 217
+  offset: 12, 0
+  index: -1
+jinbi_0003
+  rotate: true
+  xy: 1790, 321
+  size: 212, 230
+  orig: 1920, 1280
+  offset: 877, 561
+  index: -1
+jinbi_0009
+  rotate: false
+  xy: 1371, 76
+  size: 417, 457
+  orig: 1920, 1280
+  offset: 756, 466
+  index: -1
+jinbi_0011
+  rotate: true
+  xy: 817, 25
+  size: 508, 552
+  orig: 1920, 1280
+  offset: 718, 427
+  index: -1
+jinbi_0015
+  rotate: false
+  xy: 1377, 1355
+  size: 623, 684
+  orig: 1920, 1280
+  offset: 657, 352
+  index: -1
+jinbi_0041
+  rotate: true
+  xy: 2, 2
+  size: 1224, 813
+  orig: 1920, 1280
+  offset: 344, 192
+  index: -1
+jinbi_0051
+  rotate: false
+  xy: 2, 1228
+  size: 1373, 811
+  orig: 1920, 1280
+  offset: 257, 101
+  index: -1
+jinbi_0057
+  rotate: false
+  xy: 817, 535
+  size: 1203, 691
+  orig: 1920, 1280
+  offset: 463, 10
+  index: -1
+jinbi_0063
+  rotate: false
+  xy: 1790, 12
+  size: 115, 88
+  orig: 1920, 1280
+  offset: 422, 487
+  index: -1
+jinbi_0065
+  rotate: false
+  xy: 1907, 12
+  size: 115, 88
+  orig: 1920, 1280
+  offset: 416, 447
+  index: -1
+uiguang_00005
+  rotate: false
+  xy: 1695, 1230
+  size: 145, 123
+  orig: 220, 217
+  offset: 43, 29
+  index: -1
+uiguang_00006
+  rotate: false
+  xy: 1377, 1230
+  size: 158, 123
+  orig: 220, 217
+  offset: 46, 29
+  index: -1
+uiguang_00007
+  rotate: false
+  xy: 1537, 1230
+  size: 156, 123
+  orig: 220, 217
+  offset: 50, 29
+  index: -1
+uiguang_00010
+  rotate: false
+  xy: 1842, 1231
+  size: 166, 122
+  orig: 220, 217
+  offset: 32, 29
+  index: -1
+
+bigwin_anim3.png
+size: 2027,2033
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_global_dujiaoxian_xulifangsheguagn_01
+  rotate: true
+  xy: 1096, 8
+  size: 225, 217
+  orig: 240, 217
+  offset: 15, 0
+  index: -1
+a_global_dujiaoxian_xulifangsheguagn_03
+  rotate: true
+  xy: 1096, 235
+  size: 228, 217
+  orig: 240, 217
+  offset: 12, 0
+  index: -1
+a_global_dujiaoxian_xulifangsheguagn_06
+  rotate: false
+  xy: 1315, 2
+  size: 185, 174
+  orig: 240, 217
+  offset: 48, 0
+  index: -1
+jinbi_0017
+  rotate: false
+  xy: 1323, 178
+  size: 670, 743
+  orig: 1920, 1280
+  offset: 630, 314
+  index: -1
+jinbi_0047
+  rotate: false
+  xy: 2, 465
+  size: 1319, 769
+  orig: 1920, 1280
+  offset: 289, 182
+  index: -1
+jinbi_0049
+  rotate: false
+  xy: 2, 1236
+  size: 1349, 795
+  orig: 1920, 1280
+  offset: 273, 141
+  index: -1
+jinbi_0059
+  rotate: true
+  xy: 1353, 923
+  size: 1108, 672
+  orig: 1920, 1280
+  offset: 465, 0
+  index: -1
+jinbi_0061
+  rotate: false
+  xy: 2, 6
+  size: 875, 457
+  orig: 1920, 1280
+  offset: 434, 165
+  index: -1
+jinbiguang_00090
+  rotate: true
+  xy: 879, 20
+  size: 443, 215
+  orig: 478, 319
+  offset: 20, 59
+  index: -1
+jinbiguang_00092
+  rotate: false
+  xy: 1502, 5
+  size: 427, 171
+  orig: 478, 319
+  offset: 28, 81
+  index: -1
+
+bigwin_anim4.png
+size: 2028,2028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_global_dujiaoxian_xulifangsheguagn_05
+  rotate: true
+  xy: 940, 782
+  size: 197, 203
+  orig: 240, 217
+  offset: 39, 0
+  index: -1
+jinbi_0027
+  rotate: false
+  xy: 2, 2
+  size: 936, 977
+  orig: 1920, 1280
+  offset: 500, 126
+  index: -1
+jinbi_0037
+  rotate: false
+  xy: 2, 981
+  size: 1147, 1045
+  orig: 1920, 1280
+  offset: 389, 0
+  index: -1
+jinbi_0043
+  rotate: true
+  xy: 1151, 765
+  size: 1261, 840
+  orig: 1920, 1280
+  offset: 324, 155
+  index: -1
+jinbi_0055
+  rotate: false
+  xy: 940, 12
+  size: 1086, 751
+  orig: 1920, 1280
+  offset: 472, 48
+  index: -1
+
+bigwin_anim5.png
+size: 2046,2031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinbi_0019
+  rotate: false
+  xy: 1297, 1226
+  size: 747, 803
+  orig: 1920, 1280
+  offset: 602, 276
+  index: -1
+jinbi_0033
+  rotate: false
+  xy: 807, 2
+  size: 1046, 1065
+  orig: 1920, 1280
+  offset: 446, 15
+  index: -1
+jinbi_0045
+  rotate: false
+  xy: 2, 1276
+  size: 1293, 753
+  orig: 1920, 1280
+  offset: 302, 223
+  index: -1
+jinbi_0053
+  rotate: true
+  xy: 2, 50
+  size: 1174, 803
+  orig: 1920, 1280
+  offset: 474, 84
+  index: -1
+jinbi_yun
+  rotate: true
+  xy: 1855, 444
+  size: 419, 161
+  orig: 419, 161
+  offset: 0, 0
+  index: -1
+jinbiguang_00091
+  rotate: false
+  xy: 807, 1069
+  size: 441, 205
+  orig: 478, 319
+  offset: 21, 64
+  index: -1
+jinbiguang_00093
+  rotate: true
+  xy: 1855, 39
+  size: 403, 161
+  orig: 478, 319
+  offset: 40, 83
+  index: -1
+jinbiguang_00096
+  rotate: true
+  xy: 1855, 865
+  size: 359, 170
+  orig: 478, 319
+  offset: 62, 86
+  index: -1
+uiguang_00001
+  rotate: false
+  xy: 1497, 1103
+  size: 159, 121
+  orig: 220, 217
+  offset: 34, 29
+  index: -1
+uiguang_00002
+  rotate: true
+  xy: 1250, 1071
+  size: 153, 121
+  orig: 220, 217
+  offset: 37, 29
+  index: -1
+uiguang_00003
+  rotate: true
+  xy: 1250, 1071
+  size: 153, 121
+  orig: 220, 217
+  offset: 37, 29
+  index: -1
+uiguang_00004
+  rotate: true
+  xy: 1373, 1078
+  size: 146, 122
+  orig: 220, 217
+  offset: 40, 29
+  index: -1
+
+bigwin_anim6.png
+size: 1983,1841
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_global_dujiaoxian_xulifangsheguagn_04
+  rotate: false
+  xy: 1408, 14
+  size: 227, 214
+  orig: 240, 217
+  offset: 13, 0
+  index: -1
+a_global_yuanquangongyong
+  rotate: false
+  xy: 1190, 21
+  size: 160, 160
+  orig: 160, 160
+  offset: 0, 0
+  index: -1
+jinbi_0005
+  rotate: false
+  xy: 1408, 230
+  size: 285, 305
+  orig: 1920, 1280
+  offset: 847, 531
+  index: -1
+jinbi_0007
+  rotate: false
+  xy: 1408, 537
+  size: 371, 379
+  orig: 1920, 1280
+  offset: 798, 501
+  index: -1
+jinbi_0013
+  rotate: false
+  xy: 845, 183
+  size: 561, 616
+  orig: 1920, 1280
+  offset: 697, 390
+  index: -1
+jinbi_0021
+  rotate: true
+  xy: 2, 2
+  size: 797, 841
+  orig: 1920, 1280
+  offset: 582, 238
+  index: -1
+jinbi_0025
+  rotate: false
+  xy: 1100, 918
+  size: 873, 921
+  orig: 1920, 1280
+  offset: 521, 163
+  index: -1
+jinbi_0035
+  rotate: false
+  xy: 2, 801
+  size: 1096, 1038
+  orig: 1920, 1280
+  offset: 420, 35
+  index: -1
+jinbiguang_00094
+  rotate: true
+  xy: 1781, 534
+  size: 382, 200
+  orig: 478, 319
+  offset: 50, 65
+  index: -1
+jinbiguang_00095
+  rotate: true
+  xy: 1695, 165
+  size: 367, 194
+  orig: 478, 319
+  offset: 58, 71
+  index: -1
+jinbiguang_00097
+  rotate: false
+  xy: 845, 23
+  size: 343, 158
+  orig: 478, 319
+  offset: 70, 93
+  index: -1

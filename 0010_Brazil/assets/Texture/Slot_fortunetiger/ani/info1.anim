@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "info1",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 25.875,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -292.784
+        },
+        {
+          "frame": 2.5833333333333335,
+          "value": -292.784
+        },
+        {
+          "frame": 8.25,
+          "value": -1182.899
+        }
+      ]
+    },
+    "paths": {
+      "info_main2": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 8.875,
+              "value": 0
+            },
+            {
+              "frame": 8.958333333333334,
+              "value": 255
+            },
+            {
+              "frame": 16.333333333333332,
+              "value": 255
+            },
+            {
+              "frame": 16.375,
+              "value": 0
+            }
+          ],
+          "x": [
+            {
+              "frame": 8.875,
+              "value": 1193.5
+            },
+            {
+              "frame": 16.25,
+              "value": 1193.5
+            }
+          ]
+        }
+      },
+      "info_main3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 16.333333333333332,
+              "value": 0
+            },
+            {
+              "frame": 16.375,
+              "value": 255
+            }
+          ],
+          "x": [
+            {
+              "frame": 16.375,
+              "value": 1309.017
+            },
+            {
+              "frame": 24.375,
+              "value": 415.138
+            },
+            {
+              "frame": 25.875,
+              "value": 415.138
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

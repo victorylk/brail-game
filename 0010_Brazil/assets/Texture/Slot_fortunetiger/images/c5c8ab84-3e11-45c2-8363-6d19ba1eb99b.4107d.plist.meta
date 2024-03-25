@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "0558bbc1-c527-4b3f-9f8a-1359acb4bf2b",
+  "importer": "asset",
+  "rawTextureUuid": "58cc5d91-85db-40ed-baab-a1d1ff8cad75",
+  "size": {
+    "width": 177,
+    "height": 222
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "respin_vfx_q_normal_01.png": {
+      "ver": "1.0.6",
+      "uuid": "7f485b6d-5cc5-424f-aa93-bdf7dac5e0ce",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "58cc5d91-85db-40ed-baab-a1d1ff8cad75",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 177,
+      "height": 222,
+      "rawWidth": 177,
+      "rawHeight": 222,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

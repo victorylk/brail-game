@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "2c822e8f-d383-40d4-b7da-c4f29e9e1ad7",
+  "importer": "asset",
+  "rawTextureUuid": "4c28f768-3c95-4237-b67d-a7d6f36a865b",
+  "size": {
+    "width": 117,
+    "height": 55
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "multiplier_glow.png": {
+      "ver": "1.0.6",
+      "uuid": "c405f707-4a5e-4f63-89da-59355310d0f2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "4c28f768-3c95-4237-b67d-a7d6f36a865b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 117,
+      "height": 55,
+      "rawWidth": 117,
+      "rawHeight": 55,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

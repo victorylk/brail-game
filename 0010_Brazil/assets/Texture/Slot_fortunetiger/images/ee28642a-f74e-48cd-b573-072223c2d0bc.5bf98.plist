@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>respin_vfx_e_normal_left.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{303,1},{261,249}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{303,1},{261,249}}</string>
+				<key>sourceSize</key>
+				<string>{261,249}</string>
+			</dict>
+			<key>respin_vfx_e_normal_right.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{300,252}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false/>
+				<key>sourceColorRect</key>
+				<string>{{1,1},{300,252}}</string>
+				<key>sourceSize</key>
+				<string>{300,252}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>realTextureFileName</key>
+			<string>ee28642a-f74e-48cd-b573-072223c2d0bc.5bf98.png</string>
+			<key>size</key>
+			<string>{565,254}</string>
+			<key>smartupdate</key>
+			<string>$TexturePacker:SmartUpdate : 8d6a3b5c6f98d0eff99dd6242c8d6db7$</string>
+			<key>textureFileName</key>
+			<string>ee28642a-f74e-48cd-b573-072223c2d0bc.5bf98.png</string>
+		</dict>
+	</dict>
+</plist>

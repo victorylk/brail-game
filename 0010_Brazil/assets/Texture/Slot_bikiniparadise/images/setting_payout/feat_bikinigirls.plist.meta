@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "858f76b5-9bb9-42c7-a444-d42ff16f7859",
+  "importer": "asset",
+  "rawTextureUuid": "9ebe8fb1-6cfe-4b4e-9ceb-41d67295bf73",
+  "size": {
+    "width": 520,
+    "height": 500
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "feat_bikinigirls.png": {
+      "ver": "1.0.6",
+      "uuid": "437d70d8-9ffd-4c6f-9d56-db7fc7b8cda4",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "9ebe8fb1-6cfe-4b4e-9ceb-41d67295bf73",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": -3,
+      "trimX": 25,
+      "trimY": 6,
+      "width": 466,
+      "height": 494,
+      "rawWidth": 520,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,118 @@
+
+ng_tp.png
+size: 1854,1503
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+G1_00
+  rotate: false
+  xy: 1590, 283
+  size: 204, 601
+  orig: 271, 637
+  offset: 19, 16
+  index: -1
+TP/1_00
+  rotate: false
+  xy: 2, 885
+  size: 264, 616
+  orig: 271, 637
+  offset: 7, 3
+  index: -1
+TP/1_01
+  rotate: false
+  xy: 2, 267
+  size: 264, 616
+  orig: 271, 637
+  offset: 7, 3
+  index: -1
+TP/1_02
+  rotate: false
+  xy: 268, 885
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_03
+  rotate: false
+  xy: 1063, 885
+  size: 262, 616
+  orig: 271, 637
+  offset: 9, 3
+  index: -1
+TP/1_04
+  rotate: true
+  xy: 620, 4
+  size: 261, 616
+  orig: 271, 637
+  offset: 10, 3
+  index: -1
+TP/1_05
+  rotate: false
+  xy: 1327, 269
+  size: 261, 615
+  orig: 271, 637
+  offset: 10, 4
+  index: -1
+TP/1_06
+  rotate: false
+  xy: 1591, 886
+  size: 261, 615
+  orig: 271, 637
+  offset: 10, 4
+  index: -1
+TP/1_07
+  rotate: false
+  xy: 1327, 886
+  size: 262, 615
+  orig: 271, 637
+  offset: 9, 4
+  index: -1
+TP/1_08
+  rotate: false
+  xy: 1063, 267
+  size: 262, 616
+  orig: 271, 637
+  offset: 9, 3
+  index: -1
+TP/1_09
+  rotate: false
+  xy: 268, 267
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_10
+  rotate: false
+  xy: 533, 885
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_11
+  rotate: false
+  xy: 533, 267
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_12
+  rotate: true
+  xy: 2, 2
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_13
+  rotate: false
+  xy: 798, 885
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1
+TP/1_14
+  rotate: false
+  xy: 798, 267
+  size: 263, 616
+  orig: 271, 637
+  offset: 8, 3
+  index: -1

@@ -1,0 +1,195 @@
+
+s_scatter.png
+size: 467,386
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgleaves_L
+  rotate: true
+  xy: 284, 117
+  size: 41, 70
+  orig: 41, 70
+  offset: 0, 0
+  index: -1
+bgleaves_R
+  rotate: false
+  xy: 170, 196
+  size: 39, 79
+  orig: 39, 79
+  offset: 0, 0
+  index: -1
+framefx01
+  rotate: false
+  xy: 306, 240
+  size: 56, 36
+  orig: 103, 36
+  offset: 0, 0
+  index: -1
+framefx02
+  rotate: false
+  xy: 260, 160
+  size: 102, 36
+  orig: 103, 36
+  offset: 1, 0
+  index: -1
+framefx03
+  rotate: false
+  xy: 306, 202
+  size: 56, 36
+  orig: 103, 36
+  offset: 47, 0
+  index: -1
+fx_ember
+  rotate: false
+  xy: 151, 277
+  size: 107, 107
+  orig: 122, 115
+  offset: 11, 2
+  index: -1
+fx_glow
+  rotate: true
+  xy: 364, 122
+  size: 121, 98
+  orig: 121, 98
+  offset: 0, 0
+  index: -1
+fx_temple
+  rotate: false
+  xy: 131, 35
+  size: 127, 158
+  orig: 127, 160
+  offset: 0, 2
+  index: -1
+fx_temple2
+  rotate: false
+  xy: 2, 34
+  size: 127, 159
+  orig: 127, 160
+  offset: 0, 1
+  index: -1
+temple
+  rotate: false
+  xy: 2, 195
+  size: 147, 189
+  orig: 201, 330
+  offset: 27, 39
+  index: -1
+templefx01
+  rotate: false
+  xy: 376, 245
+  size: 89, 86
+  orig: 141, 232
+  offset: 26, 70
+  index: -1
+templefxb01
+  rotate: false
+  xy: 283, 278
+  size: 91, 53
+  orig: 141, 232
+  offset: 25, 66
+  index: -1
+templefxb02
+  rotate: false
+  xy: 211, 198
+  size: 93, 77
+  orig: 141, 232
+  offset: 24, 77
+  index: -1
+templefxb03
+  rotate: false
+  xy: 260, 71
+  size: 93, 44
+  orig: 141, 232
+  offset: 24, 114
+  index: -1
+templefxb04
+  rotate: true
+  xy: 151, 195
+  size: 80, 17
+  orig: 141, 232
+  offset: 31, 141
+  index: -1
+txt_board
+  rotate: false
+  xy: 306, 2
+  size: 141, 44
+  orig: 141, 62
+  offset: 0, 18
+  index: -1
+txt_boardshadow
+  rotate: false
+  xy: 306, 48
+  size: 146, 14
+  orig: 146, 14
+  offset: 0, 0
+  index: -1
+txt_fx01
+  rotate: true
+  xy: 260, 291
+  size: 26, 21
+  orig: 102, 25
+  offset: 8, 2
+  index: -1
+txt_fx02
+  rotate: false
+  xy: 260, 41
+  size: 44, 21
+  orig: 102, 25
+  offset: 9, 2
+  index: -1
+txt_fx03
+  rotate: true
+  xy: 260, 319
+  size: 65, 21
+  orig: 102, 25
+  offset: 19, 2
+  index: -1
+txt_fx04
+  rotate: true
+  xy: 433, 338
+  size: 46, 21
+  orig: 102, 25
+  offset: 48, 2
+  index: -1
+txt_fx05
+  rotate: true
+  xy: 260, 132
+  size: 26, 21
+  orig: 102, 25
+  offset: 68, 2
+  index: -1
+txt_goldframe
+  rotate: false
+  xy: 284, 333
+  size: 147, 51
+  orig: 147, 51
+  offset: 0, 0
+  index: -1
+txt_leaves
+  rotate: false
+  xy: 125, 5
+  size: 157, 27
+  orig: 157, 27
+  offset: 0, 0
+  index: -1
+txt_scatter
+  rotate: false
+  xy: 2, 3
+  size: 121, 29
+  orig: 121, 29
+  offset: 0, 0
+  index: -1
+txt_scatterx
+  rotate: false
+  xy: 356, 93
+  size: 109, 27
+  orig: 121, 29
+  offset: 0, 2
+  index: -1
+txt_scatterx2
+  rotate: false
+  xy: 355, 64
+  size: 109, 27
+  orig: 121, 29
+  offset: 12, 2
+  index: -1

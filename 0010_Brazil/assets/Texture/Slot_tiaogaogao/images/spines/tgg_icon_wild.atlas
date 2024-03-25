@@ -1,0 +1,244 @@
+
+tgg_icon_wild.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sprite_1
+  rotate: false
+  xy: 692, 682
+  size: 341, 278
+  orig: 425, 373
+  offset: 54, 73
+  index: -1
+Sprite_10
+  rotate: false
+  xy: 372, 1752
+  size: 394, 294
+  orig: 425, 373
+  offset: 13, 51
+  index: -1
+Sprite_11
+  rotate: false
+  xy: 692, 401
+  size: 335, 279
+  orig: 425, 373
+  offset: 64, 65
+  index: -1
+Sprite_12
+  rotate: false
+  xy: 2, 542
+  size: 360, 279
+  orig: 425, 373
+  offset: 40, 74
+  index: -1
+Sprite_13
+  rotate: false
+  xy: 1411, 741
+  size: 317, 257
+  orig: 425, 373
+  offset: 79, 77
+  index: -1
+Sprite_14
+  rotate: false
+  xy: 2, 1115
+  size: 352, 287
+  orig: 425, 373
+  offset: 53, 56
+  index: -1
+Sprite_15
+  rotate: false
+  xy: 1463, 1000
+  size: 318, 292
+  orig: 425, 373
+  offset: 78, 40
+  index: -1
+Sprite_16
+  rotate: false
+  xy: 2, 1688
+  size: 368, 358
+  orig: 425, 373
+  offset: 57, 0
+  index: -1
+Sprite_17
+  rotate: false
+  xy: 1029, 230
+  size: 282, 272
+  orig: 425, 373
+  offset: 92, 78
+  index: -1
+Sprite_18
+  rotate: false
+  xy: 1035, 504
+  size: 310, 250
+  orig: 425, 373
+  offset: 81, 76
+  index: -1
+Sprite_19
+  rotate: false
+  xy: 1347, 489
+  size: 310, 250
+  orig: 425, 373
+  offset: 81, 76
+  index: -1
+Sprite_2
+  rotate: false
+  xy: 364, 436
+  size: 326, 278
+  orig: 425, 373
+  offset: 64, 66
+  index: -1
+Sprite_20
+  rotate: false
+  xy: 374, 142
+  size: 316, 292
+  orig: 425, 373
+  offset: 80, 81
+  index: -1
+Sprite_21
+  rotate: false
+  xy: 1139, 1020
+  size: 322, 272
+  orig: 425, 373
+  offset: 67, 73
+  index: -1
+Sprite_22
+  rotate: false
+  xy: 728, 962
+  size: 361, 264
+  orig: 425, 373
+  offset: 38, 68
+  index: -1
+Sprite_23
+  rotate: false
+  xy: 372, 1512
+  size: 390, 238
+  orig: 425, 373
+  offset: 12, 88
+  index: -1
+Sprite_24
+  rotate: false
+  xy: 764, 1478
+  size: 382, 270
+  orig: 425, 373
+  offset: 28, 71
+  index: -1
+Sprite_25
+  rotate: false
+  xy: 1148, 1500
+  size: 378, 261
+  orig: 425, 373
+  offset: 26, 68
+  index: -1
+Sprite_26
+  rotate: false
+  xy: 768, 1750
+  size: 376, 296
+  orig: 425, 373
+  offset: 27, 64
+  index: -1
+Sprite_27
+  rotate: false
+  xy: 1528, 1498
+  size: 374, 264
+  orig: 425, 373
+  offset: 28, 79
+  index: -1
+Sprite_28
+  rotate: false
+  xy: 363, 1264
+  size: 398, 246
+  orig: 425, 373
+  offset: 0, 83
+  index: -1
+Sprite_29
+  rotate: false
+  xy: 2, 2
+  size: 370, 260
+  orig: 425, 373
+  offset: 31, 73
+  index: -1
+Sprite_3
+  rotate: false
+  xy: 692, 114
+  size: 324, 285
+  orig: 425, 373
+  offset: 71, 63
+  index: -1
+Sprite_30
+  rotate: false
+  xy: 1528, 1764
+  size: 376, 282
+  orig: 425, 373
+  offset: 21, 75
+  index: -1
+Sprite_31
+  rotate: false
+  xy: 1148, 1294
+  size: 353, 204
+  orig: 425, 373
+  offset: 35, 99
+  index: -1
+Sprite_32
+  rotate: false
+  xy: 356, 1016
+  size: 370, 246
+  orig: 425, 373
+  offset: 23, 86
+  index: -1
+Sprite_33
+  rotate: false
+  xy: 1503, 1294
+  size: 348, 202
+  orig: 425, 373
+  offset: 30, 101
+  index: -1
+Sprite_34
+  rotate: false
+  xy: 763, 1228
+  size: 374, 248
+  orig: 425, 373
+  offset: 29, 79
+  index: -1
+Sprite_4
+  rotate: false
+  xy: 2, 823
+  size: 346, 290
+  orig: 425, 373
+  offset: 52, 47
+  index: -1
+Sprite_5
+  rotate: false
+  xy: 1091, 756
+  size: 318, 262
+  orig: 425, 373
+  offset: 72, 73
+  index: -1
+Sprite_6
+  rotate: false
+  xy: 364, 716
+  size: 326, 298
+  orig: 425, 373
+  offset: 74, 44
+  index: -1
+Sprite_7
+  rotate: false
+  xy: 2, 264
+  size: 354, 276
+  orig: 425, 373
+  offset: 43, 69
+  index: -1
+Sprite_8
+  rotate: false
+  xy: 1146, 1763
+  size: 380, 283
+  orig: 425, 373
+  offset: 13, 51
+  index: -1
+Sprite_9
+  rotate: false
+  xy: 2, 1404
+  size: 359, 282
+  orig: 425, 373
+  offset: 33, 67
+  index: -1

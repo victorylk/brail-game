@@ -1,0 +1,153 @@
+
+Blast_pick_qiandai.png
+size: 915,359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lz/lz_01
+  rotate: true
+  xy: 229, 15
+  size: 83, 104
+  orig: 160, 160
+  offset: 38, 29
+  index: -1
+lz/lz_02
+  rotate: true
+  xy: 2, 3
+  size: 93, 114
+  orig: 160, 160
+  offset: 32, 27
+  index: -1
+lz/lz_03
+  rotate: true
+  xy: 199, 100
+  size: 109, 131
+  orig: 160, 160
+  offset: 22, 21
+  index: -1
+lz/lz_04
+  rotate: false
+  xy: 199, 211
+  size: 123, 146
+  orig: 160, 160
+  offset: 14, 14
+  index: -1
+lz/lz_05
+  rotate: true
+  xy: 324, 236
+  size: 121, 148
+  orig: 160, 160
+  offset: 16, 12
+  index: -1
+lz/lz_06
+  rotate: true
+  xy: 474, 239
+  size: 118, 145
+  orig: 160, 160
+  offset: 18, 13
+  index: -1
+lz/lz_07
+  rotate: true
+  xy: 621, 243
+  size: 114, 142
+  orig: 160, 160
+  offset: 22, 14
+  index: -1
+lz/lz_08
+  rotate: true
+  xy: 765, 247
+  size: 110, 138
+  orig: 160, 160
+  offset: 25, 15
+  index: -1
+lz/lz_09
+  rotate: false
+  xy: 332, 100
+  size: 106, 134
+  orig: 160, 160
+  offset: 28, 17
+  index: -1
+lz/lz_10
+  rotate: false
+  xy: 440, 103
+  size: 105, 131
+  orig: 160, 160
+  offset: 28, 18
+  index: -1
+lz/lz_11
+  rotate: false
+  xy: 547, 109
+  size: 104, 128
+  orig: 160, 160
+  offset: 28, 20
+  index: -1
+lz/lz_12
+  rotate: false
+  xy: 653, 115
+  size: 101, 126
+  orig: 160, 160
+  offset: 31, 22
+  index: -1
+lz/lz_13
+  rotate: true
+  xy: 571, 7
+  size: 100, 124
+  orig: 160, 160
+  offset: 32, 24
+  index: -1
+lz/lz_14
+  rotate: true
+  xy: 446, 2
+  size: 99, 123
+  orig: 160, 160
+  offset: 33, 25
+  index: -1
+lz/lz_15
+  rotate: true
+  xy: 697, 16
+  size: 97, 120
+  orig: 160, 160
+  offset: 35, 26
+  index: -1
+lz/lz_16
+  rotate: false
+  xy: 756, 124
+  size: 97, 117
+  orig: 160, 160
+  offset: 35, 27
+  index: -1
+lz/lz_17
+  rotate: true
+  xy: 118, 7
+  size: 89, 109
+  orig: 160, 160
+  offset: 40, 30
+  index: -1
+lz/lz_18
+  rotate: true
+  xy: 855, 176
+  size: 69, 58
+  orig: 160, 160
+  offset: 42, 59
+  index: -1
+qiandai
+  rotate: false
+  xy: 2, 98
+  size: 195, 259
+  orig: 195, 259
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 819, 36
+  size: 86, 76
+  orig: 100, 100
+  offset: 8, 9
+  index: -1
+wenhao
+  rotate: true
+  xy: 335, 23
+  size: 75, 109
+  orig: 195, 259
+  offset: 63, 39
+  index: -1

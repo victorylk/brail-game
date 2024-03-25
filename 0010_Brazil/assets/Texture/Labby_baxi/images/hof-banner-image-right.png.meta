@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "b33e117b-8c93-46e7-8126-b1fb018fca94",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 511,
+  "height": 791,
+  "platformSettings": {},
+  "subMetas": {
+    "hof-banner-image-right": {
+      "ver": "1.0.6",
+      "uuid": "b76c4c4c-e8b9-444f-a6a4-a1a364722c6a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "b33e117b-8c93-46e7-8126-b1fb018fca94",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -70,
+      "trimX": 0,
+      "trimY": 140,
+      "width": 511,
+      "height": 651,
+      "rawWidth": 511,
+      "rawHeight": 791,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

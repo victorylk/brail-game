@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "980653db-912b-46a4-bb6e-1950e6b9e636",
+  "importer": "asset",
+  "rawTextureUuid": "f25e266b-5027-4011-883a-152bffdaca1a",
+  "size": {
+    "width": 756,
+    "height": 131
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "infoboard_lv01.png": {
+      "ver": "1.0.6",
+      "uuid": "aee7de55-3901-47dd-b0f3-14ac8fee5874",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f25e266b-5027-4011-883a-152bffdaca1a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 756,
+      "height": 130,
+      "rawWidth": 756,
+      "rawHeight": 131,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

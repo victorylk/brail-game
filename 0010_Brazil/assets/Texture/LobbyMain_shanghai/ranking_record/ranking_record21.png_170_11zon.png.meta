@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "300eae01-f4fc-4cd8-a8ee-80769e4832a8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 261,
+  "height": 53,
+  "platformSettings": {},
+  "subMetas": {
+    "ranking_record21.png_170_11zon": {
+      "ver": "1.0.6",
+      "uuid": "6168bc93-4f27-41bc-ba70-9498b5c9bc96",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "300eae01-f4fc-4cd8-a8ee-80769e4832a8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 261,
+      "height": 53,
+      "rawWidth": 261,
+      "rawHeight": 53,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

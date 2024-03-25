@@ -1,0 +1,13 @@
+
+ng_bg.png
+size: 59,59
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hg_00000
+  rotate: false
+  xy: 2, 2
+  size: 55, 55
+  orig: 75, 75
+  offset: 10, 10
+  index: -1

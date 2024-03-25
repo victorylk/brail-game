@@ -1,0 +1,13 @@
+
+bg.png
+size: 237,235
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/shou
+  rotate: false
+  xy: 2, 74
+  size: 233, 159
+  orig: 233, 159
+  offset: 0, 0
+  index: -1

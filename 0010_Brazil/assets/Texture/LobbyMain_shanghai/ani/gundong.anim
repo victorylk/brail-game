@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gundong",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 6.033333333333333,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -71.3
+        },
+        {
+          "frame": 2.033333333333333,
+          "value": -71.3
+        },
+        {
+          "frame": 6.033333333333333,
+          "value": -523.961
+        }
+      ]
+    }
+  },
+  "events": []
+}

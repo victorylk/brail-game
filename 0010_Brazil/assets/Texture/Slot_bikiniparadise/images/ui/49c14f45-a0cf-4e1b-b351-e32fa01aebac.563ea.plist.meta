@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "8da752af-0ad0-41be-aba1-1e2452544b35",
+  "importer": "asset",
+  "rawTextureUuid": "89fb0d2e-0415-4586-a825-dda183bdcc78",
+  "size": {
+    "width": 756,
+    "height": 1638
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "bw_vfx_a_loop_mask_02.png": {
+      "ver": "1.0.6",
+      "uuid": "225e8c93-85e6-4e04-b2c4-e648eabf398a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "89fb0d2e-0415-4586-a825-dda183bdcc78",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 14,
+      "offsetY": -9,
+      "trimX": 28,
+      "trimY": 174,
+      "width": 728,
+      "height": 1309,
+      "rawWidth": 756,
+      "rawHeight": 1638,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

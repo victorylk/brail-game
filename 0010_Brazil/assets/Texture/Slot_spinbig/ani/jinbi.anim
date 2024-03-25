@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jinbi",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.6666666666666666,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 15.342
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -2.647
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": -58.579
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -45.73
+        }
+      ]
+    },
+    "paths": {
+      "jinbi": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": -32.882
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": -25.173
+            }
+          ],
+          "x": [
+            {
+              "frame": 0,
+              "value": -61.753
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": 75.732
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

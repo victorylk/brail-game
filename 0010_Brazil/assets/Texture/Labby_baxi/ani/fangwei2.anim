@@ -1,0 +1,33 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fangwei2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5.041666666666667,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "007": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -84.291
+            },
+            {
+              "frame": 1.2083333333333333,
+              "value": 90.16
+            },
+            {
+              "frame": 5.041666666666667,
+              "value": 90.16
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

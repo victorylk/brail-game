@@ -1,0 +1,125 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "dengguang",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 4,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "dengguang1/dengguang2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 2,
+              "value": -11
+            },
+            {
+              "frame": 4,
+              "value": 7.187000000000001
+            }
+          ]
+        }
+      },
+      "dengguang1 copy/dengguang2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 6
+            },
+            {
+              "frame": 1.5,
+              "value": -14.466999999999999
+            },
+            {
+              "frame": 2.8666666666666667,
+              "value": 22.678626666666666
+            },
+            {
+              "frame": 4,
+              "value": 6
+            }
+          ]
+        }
+      },
+      "dengguang12 copy/dengguang2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -6
+            },
+            {
+              "frame": 0.9666666666666667,
+              "value": 15.93
+            },
+            {
+              "frame": 2.2666666666666666,
+              "value": -37.38057142857143
+            },
+            {
+              "frame": 3.433333333333333,
+              "value": 6.46096703296703
+            },
+            {
+              "frame": 4,
+              "value": -6
+            }
+          ]
+        }
+      },
+      "dengguang13 copy/dengguang2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 15
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": -31.984
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": 36.67088235294118
+            },
+            {
+              "frame": 4,
+              "value": 15
+            }
+          ]
+        }
+      },
+      "dengguang14 copy/dengguang2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -13
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": 29.426000000000002
+            },
+            {
+              "frame": 2.6666666666666665,
+              "value": -39.686
+            },
+            {
+              "frame": 4,
+              "value": -13
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

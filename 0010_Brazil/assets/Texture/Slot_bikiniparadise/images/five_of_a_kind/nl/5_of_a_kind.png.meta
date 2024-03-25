@@ -1,0 +1,15 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f46a7f51-50a0-472d-a89f-ae9ec14c25ce",
+  "importer": "texture",
+  "type": "raw",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 395,
+  "height": 143,
+  "platformSettings": {},
+  "subMetas": {}
+}

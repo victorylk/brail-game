@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "c34c3dfa-df96-4ac3-b5e2-555826e90469",
+  "importer": "asset",
+  "rawTextureUuid": "156038ed-abe8-436e-9ce9-de4f8aa66af2",
+  "size": {
+    "width": 399,
+    "height": 94
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "respin_utw.png": {
+      "ver": "1.0.6",
+      "uuid": "458727c2-d231-4ff9-8b58-11becfa3e1c5",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "156038ed-abe8-436e-9ce9-de4f8aa66af2",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 398,
+      "height": 94,
+      "rawWidth": 399,
+      "rawHeight": 94,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

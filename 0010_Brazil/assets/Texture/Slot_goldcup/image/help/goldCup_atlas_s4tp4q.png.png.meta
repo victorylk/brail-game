@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "fae4459f-70f9-4953-9c7b-7123ba28d99f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 990,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "goldCup_atlas_s4tp4q.png": {
+      "ver": "1.0.6",
+      "uuid": "bf6e301c-76f6-476b-8c5e-79c0def1e750",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "fae4459f-70f9-4953-9c7b-7123ba28d99f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2.5,
+      "offsetY": 19,
+      "trimX": 41,
+      "trimY": 12,
+      "width": 903,
+      "height": 438,
+      "rawWidth": 990,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

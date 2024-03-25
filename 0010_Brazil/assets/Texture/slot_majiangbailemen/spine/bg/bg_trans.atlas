@@ -1,0 +1,27 @@
+
+bg_trans.png
+size: 787,787
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/guaguaka1
+  rotate: false
+  xy: 2, 2
+  size: 404, 390
+  orig: 404, 390
+  offset: 0, 0
+  index: -1
+images/guaguaka2
+  rotate: false
+  xy: 408, 335
+  size: 324, 450
+  orig: 324, 450
+  offset: 0, 0
+  index: -1
+images/guaguaka3
+  rotate: false
+  xy: 2, 394
+  size: 404, 391
+  orig: 404, 391
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "9c96e6b9-77ea-43a5-b8aa-cc67b4a48f07",
+  "importer": "asset",
+  "rawTextureUuid": "13469375-e93a-4795-b57f-3998dac39f91",
+  "size": {
+    "width": 452,
+    "height": 216
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "ui_paytable.png": {
+      "ver": "1.0.6",
+      "uuid": "a1391836-b7d7-4bcd-a507-da7694d17199",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "13469375-e93a-4795-b57f-3998dac39f91",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 452,
+      "height": 216,
+      "rawWidth": 452,
+      "rawHeight": 216,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 367,
+      "borderRight": 47,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

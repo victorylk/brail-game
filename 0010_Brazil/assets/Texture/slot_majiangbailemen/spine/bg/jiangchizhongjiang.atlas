@@ -1,0 +1,251 @@
+
+jiangchizhongjiang.png
+size: 1122,1122
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/ggg23
+  rotate: false
+  xy: 2, 135
+  size: 495, 471
+  orig: 512, 512
+  offset: 1, 40
+  index: -1
+images/ggg4
+  rotate: false
+  xy: 296, 5
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/kuanghui_00
+  rotate: false
+  xy: 792, 217
+  size: 265, 104
+  orig: 419, 168
+  offset: 77, 32
+  index: -1
+images/kuangkuang_00
+  rotate: false
+  xy: 790, 111
+  size: 264, 104
+  orig: 264, 104
+  offset: 0, 0
+  index: -1
+images/rao/rao_00
+  rotate: false
+  xy: 516, 720
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_15
+  rotate: false
+  xy: 516, 720
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_01
+  rotate: false
+  xy: 809, 855
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_16
+  rotate: false
+  xy: 809, 855
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_02
+  rotate: false
+  xy: 809, 722
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_17
+  rotate: false
+  xy: 809, 722
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_03
+  rotate: false
+  xy: 516, 587
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_18
+  rotate: false
+  xy: 516, 587
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_04
+  rotate: false
+  xy: 2, 2
+  size: 292, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_19
+  rotate: false
+  xy: 2, 2
+  size: 292, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_05
+  rotate: false
+  xy: 809, 589
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_20
+  rotate: false
+  xy: 809, 589
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_06
+  rotate: false
+  xy: 516, 853
+  size: 291, 132
+  orig: 482, 194
+  offset: 96, 31
+  index: -1
+images/rao/rao_21
+  rotate: false
+  xy: 516, 853
+  size: 291, 132
+  orig: 482, 194
+  offset: 96, 31
+  index: -1
+images/rao/rao_07
+  rotate: false
+  xy: 516, 987
+  size: 291, 133
+  orig: 482, 194
+  offset: 96, 30
+  index: -1
+images/rao/rao_22
+  rotate: false
+  xy: 516, 987
+  size: 291, 133
+  orig: 482, 194
+  offset: 96, 30
+  index: -1
+images/rao/rao_08
+  rotate: false
+  xy: 809, 988
+  size: 291, 132
+  orig: 482, 194
+  offset: 96, 31
+  index: -1
+images/rao/rao_23
+  rotate: false
+  xy: 809, 988
+  size: 291, 132
+  orig: 482, 194
+  offset: 96, 31
+  index: -1
+images/rao/rao_09
+  rotate: false
+  xy: 499, 454
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_24
+  rotate: false
+  xy: 499, 454
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_10
+  rotate: false
+  xy: 499, 321
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_25
+  rotate: false
+  xy: 499, 321
+  size: 291, 131
+  orig: 482, 194
+  offset: 96, 32
+  index: -1
+images/rao/rao_11
+  rotate: false
+  xy: 499, 188
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_26
+  rotate: false
+  xy: 499, 188
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_12
+  rotate: false
+  xy: 499, 55
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_27
+  rotate: false
+  xy: 499, 55
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_13
+  rotate: false
+  xy: 809, 456
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_28
+  rotate: false
+  xy: 809, 456
+  size: 289, 131
+  orig: 482, 194
+  offset: 97, 32
+  index: -1
+images/rao/rao_29
+  rotate: false
+  xy: 792, 323
+  size: 287, 131
+  orig: 482, 194
+  offset: 98, 32
+  index: -1
+images/rao/rao_14
+  rotate: false
+  xy: 792, 323
+  size: 287, 131
+  orig: 482, 194
+  offset: 98, 32
+  index: -1
+images/xx_00
+  rotate: false
+  xy: 2, 608
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

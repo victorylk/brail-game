@@ -1,0 +1,111 @@
+
+winCoin_ske.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_coin_00
+  rotate: false
+  xy: 1, 429
+  size: 67, 77
+  orig: 70, 80
+  offset: 2, 1
+  index: -1
+win_coin_01
+  rotate: false
+  xy: 205, 417
+  size: 75, 89
+  orig: 76, 92
+  offset: 0, 1
+  index: -1
+win_coin_02
+  rotate: false
+  xy: 303, 130
+  size: 79, 97
+  orig: 82, 100
+  offset: 2, 1
+  index: -1
+win_coin_03
+  rotate: false
+  xy: 387, 394
+  size: 84, 99
+  orig: 86, 104
+  offset: 1, 2
+  index: -1
+win_coin_04
+  rotate: false
+  xy: 294, 394
+  size: 91, 109
+  orig: 94, 112
+  offset: 2, 2
+  index: -1
+win_coin_05
+  rotate: false
+  xy: 294, 273
+  size: 96, 119
+  orig: 98, 122
+  offset: 1, 1
+  index: -1
+win_coin_06
+  rotate: false
+  xy: 211, 1
+  size: 100, 127
+  orig: 102, 130
+  offset: 1, 1
+  index: -1
+win_coin_07
+  rotate: false
+  xy: 200, 139
+  size: 101, 132
+  orig: 104, 134
+  offset: 2, 1
+  index: -1
+win_coin_08
+  rotate: false
+  xy: 105, 1
+  size: 104, 136
+  orig: 106, 138
+  offset: 1, 1
+  index: -1
+win_coin_09
+  rotate: false
+  xy: 1, 146
+  size: 103, 139
+  orig: 104, 140
+  offset: 1, 1
+  index: -1
+win_coin_10
+  rotate: false
+  xy: 1, 287
+  size: 101, 140
+  orig: 104, 142
+  offset: 2, 1
+  index: -1
+win_coin_11
+  rotate: false
+  xy: 1, 1
+  size: 102, 143
+  orig: 104, 144
+  offset: 2, 1
+  index: -1
+win_coin_12
+  rotate: false
+  xy: 104, 287
+  size: 99, 142
+  orig: 102, 146
+  offset: 2, 1
+  index: -1
+win_coin_13
+  rotate: false
+  xy: 106, 139
+  size: 92, 145
+  orig: 94, 148
+  offset: 1, 1
+  index: -1
+win_coin_14
+  rotate: false
+  xy: 205, 273
+  size: 87, 142
+  orig: 88, 144
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,335 @@
+
+tc_bg_end_bg.png
+size: 2031,1180
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+board
+  rotate: false
+  xy: 2, 447
+  size: 755, 731
+  orig: 757, 731
+  offset: 1, 0
+  index: -1
+btn_collect_common
+  rotate: false
+  xy: 1481, 212
+  size: 308, 108
+  orig: 308, 108
+  offset: 0, 0
+  index: -1
+coin_frame
+  rotate: false
+  xy: 759, 965
+  size: 760, 213
+  orig: 760, 213
+  offset: 0, 0
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_00
+  rotate: false
+  xy: 1885, 923
+  size: 144, 89
+  orig: 380, 107
+  offset: 119, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_01
+  rotate: true
+  xy: 1906, 1014
+  size: 164, 90
+  orig: 380, 107
+  offset: 109, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_02
+  rotate: true
+  xy: 1883, 740
+  size: 181, 90
+  orig: 380, 107
+  offset: 100, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_03
+  rotate: false
+  xy: 1819, 649
+  size: 197, 89
+  orig: 380, 107
+  offset: 92, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_04
+  rotate: false
+  xy: 1812, 558
+  size: 213, 89
+  orig: 380, 107
+  offset: 84, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_05
+  rotate: true
+  xy: 1812, 327
+  size: 229, 89
+  orig: 380, 107
+  offset: 76, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_06
+  rotate: true
+  xy: 1903, 311
+  size: 245, 89
+  orig: 380, 107
+  offset: 68, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_07
+  rotate: true
+  xy: 1791, 58
+  size: 262, 89
+  orig: 380, 107
+  offset: 59, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_08
+  rotate: true
+  xy: 1882, 31
+  size: 278, 89
+  orig: 380, 107
+  offset: 51, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_09
+  rotate: false
+  xy: 1481, 121
+  size: 294, 89
+  orig: 380, 107
+  offset: 43, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_10
+  rotate: false
+  xy: 1484, 322
+  size: 310, 89
+  orig: 380, 107
+  offset: 35, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_11
+  rotate: false
+  xy: 1490, 655
+  size: 327, 89
+  orig: 380, 107
+  offset: 26, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_12
+  rotate: false
+  xy: 1519, 746
+  size: 343, 92
+  orig: 380, 107
+  offset: 18, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_13
+  rotate: false
+  xy: 759, 441
+  size: 359, 93
+  orig: 380, 107
+  offset: 10, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_14
+  rotate: false
+  xy: 1119, 191
+  size: 360, 93
+  orig: 380, 107
+  offset: 9, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_15
+  rotate: false
+  xy: 1119, 96
+  size: 360, 93
+  orig: 380, 107
+  offset: 9, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_16
+  rotate: false
+  xy: 371, 15
+  size: 360, 94
+  orig: 380, 107
+  offset: 9, 11
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_17
+  rotate: false
+  xy: 1119, 286
+  size: 360, 95
+  orig: 380, 107
+  offset: 9, 10
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_18
+  rotate: false
+  xy: 755, 341
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_19
+  rotate: false
+  xy: 1115, 579
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_20
+  rotate: false
+  xy: 1521, 940
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_21
+  rotate: false
+  xy: 1519, 840
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_22
+  rotate: false
+  xy: 1120, 479
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_23
+  rotate: false
+  xy: 755, 241
+  size: 362, 98
+  orig: 380, 107
+  offset: 8, 8
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_24
+  rotate: false
+  xy: 391, 205
+  size: 362, 94
+  orig: 380, 107
+  offset: 8, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_25
+  rotate: false
+  xy: 1120, 383
+  size: 362, 94
+  orig: 380, 107
+  offset: 8, 12
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_26
+  rotate: false
+  xy: 755, 147
+  size: 362, 92
+  orig: 380, 107
+  offset: 8, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_27
+  rotate: false
+  xy: 378, 111
+  size: 362, 92
+  orig: 380, 107
+  offset: 8, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_28
+  rotate: false
+  xy: 742, 53
+  size: 360, 92
+  orig: 380, 107
+  offset: 9, 13
+  index: -1
+fg_js_coin_frame_sg/fg_js_coin_frame_sg_29
+  rotate: false
+  xy: 1104, 2
+  size: 360, 92
+  orig: 380, 107
+  offset: 9, 13
+  index: -1
+glow3
+  rotate: false
+  xy: 1975, 881
+  size: 43, 40
+  orig: 50, 50
+  offset: 6, 5
+  index: -1
+yan/yan3_00
+  rotate: false
+  xy: 1481, 32
+  size: 291, 87
+  orig: 546, 263
+  offset: 116, 47
+  index: -1
+yan/yan3_01
+  rotate: false
+  xy: 1484, 413
+  size: 309, 109
+  orig: 546, 263
+  offset: 110, 37
+  index: -1
+yan/yan3_02
+  rotate: false
+  xy: 1484, 524
+  size: 326, 129
+  orig: 546, 263
+  offset: 102, 33
+  index: -1
+yan/yan3_03
+  rotate: false
+  xy: 1138, 679
+  size: 350, 140
+  orig: 546, 263
+  offset: 90, 32
+  index: -1
+yan/yan3_04
+  rotate: false
+  xy: 759, 536
+  size: 354, 143
+  orig: 546, 263
+  offset: 88, 37
+  index: -1
+yan/yan3_05
+  rotate: false
+  xy: 391, 301
+  size: 362, 144
+  orig: 546, 263
+  offset: 84, 41
+  index: -1
+yan/yan3_06
+  rotate: false
+  xy: 2, 10
+  size: 367, 144
+  orig: 546, 263
+  offset: 81, 46
+  index: -1
+yan/yan3_07
+  rotate: false
+  xy: 1146, 821
+  size: 371, 142
+  orig: 546, 263
+  offset: 79, 51
+  index: -1
+yan/yan3_08
+  rotate: false
+  xy: 2, 156
+  size: 374, 142
+  orig: 546, 263
+  offset: 78, 52
+  index: -1
+yan/yan3_09
+  rotate: false
+  xy: 759, 681
+  size: 377, 138
+  orig: 546, 263
+  offset: 76, 54
+  index: -1
+yan/yan3_10
+  rotate: false
+  xy: 1521, 1040
+  size: 383, 138
+  orig: 546, 263
+  offset: 73, 57
+  index: -1
+yan/yan3_11
+  rotate: false
+  xy: 759, 821
+  size: 385, 142
+  orig: 546, 263
+  offset: 72, 56
+  index: -1
+yan/yan3_12
+  rotate: false
+  xy: 2, 300
+  size: 387, 145
+  orig: 546, 263
+  offset: 71, 55
+  index: -1

@@ -1,0 +1,125 @@
+
+ng_role_mahjong1.png
+size: 721,223
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+a_10
+  rotate: true
+  xy: 323, 14
+  size: 76, 78
+  orig: 76, 78
+  offset: 0, 0
+  index: -1
+a_11
+  rotate: false
+  xy: 240, 13
+  size: 81, 77
+  orig: 82, 78
+  offset: 0, 0
+  index: -1
+a_12
+  rotate: true
+  xy: 2, 12
+  size: 209, 236
+  orig: 209, 236
+  offset: 0, 0
+  index: -1
+a_13
+  rotate: false
+  xy: 532, 5
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+a_14
+  rotate: false
+  xy: 677, 94
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+a_15
+  rotate: false
+  xy: 676, 37
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+a_16
+  rotate: false
+  xy: 677, 179
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+a_17
+  rotate: false
+  xy: 490, 36
+  size: 70, 48
+  orig: 70, 48
+  offset: 0, 0
+  index: -1
+a_18
+  rotate: false
+  xy: 492, 86
+  size: 183, 135
+  orig: 183, 135
+  offset: 0, 0
+  index: -1
+a_3
+  rotate: true
+  xy: 562, 31
+  size: 53, 60
+  orig: 53, 60
+  offset: 0, 0
+  index: -1
+a_4
+  rotate: true
+  xy: 624, 27
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+a_5
+  rotate: false
+  xy: 403, 2
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+a_6
+  rotate: true
+  xy: 677, 125
+  size: 52, 33
+  orig: 53, 33
+  offset: 0, 0
+  index: -1
+a_7
+  rotate: false
+  xy: 490, 2
+  size: 40, 32
+  orig: 40, 33
+  offset: 0, 1
+  index: -1
+a_8
+  rotate: false
+  xy: 562, 10
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+a_9
+  rotate: true
+  xy: 403, 29
+  size: 61, 85
+  orig: 61, 85
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 240, 92
+  size: 250, 129
+  orig: 252, 129
+  offset: 1, 0
+  index: -1

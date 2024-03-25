@@ -1,0 +1,16 @@
+info face="face" size=153
+common lineHeight=153 scaleW=537 scaleH=463 pages=1
+page id=0 file="04.png"
+chars count=12
+char id=48 x=222 y=0 width=107 height=153 xoffset=0 yoffset=0 xadvance=107 page=0 chnl=15
+char id=49 x=435 y=155 width=73 height=153 xoffset=0 yoffset=0 xadvance=73 page=0 chnl=15
+char id=50 x=108 y=155 width=104 height=153 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=15
+char id=51 x=0 y=155 width=106 height=153 xoffset=0 yoffset=0 xadvance=106 page=0 chnl=15
+char id=52 x=0 y=0 width=110 height=153 xoffset=0 yoffset=0 xadvance=110 page=0 chnl=15
+char id=53 x=214 y=155 width=104 height=153 xoffset=0 yoffset=0 xadvance=104 page=0 chnl=15
+char id=54 x=331 y=0 width=102 height=153 xoffset=0 yoffset=0 xadvance=102 page=0 chnl=15
+char id=55 x=331 y=155 width=102 height=153 xoffset=0 yoffset=0 xadvance=102 page=0 chnl=15
+char id=56 x=112 y=0 width=108 height=153 xoffset=0 yoffset=0 xadvance=108 page=0 chnl=15
+char id=57 x=435 y=0 width=102 height=153 xoffset=0 yoffset=0 xadvance=102 page=0 chnl=15
+char id=44 x=59 y=310 width=52 height=153 xoffset=0 yoffset=0 xadvance=52 page=0 chnl=15
+char id=46 x=0 y=310 width=57 height=153 xoffset=0 yoffset=0 xadvance=57 page=0 chnl=15

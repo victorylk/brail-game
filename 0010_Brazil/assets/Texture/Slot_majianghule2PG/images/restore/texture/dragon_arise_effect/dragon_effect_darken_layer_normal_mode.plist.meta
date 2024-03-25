@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "2589737e-05db-40ee-a606-1319e2bedaad",
+  "importer": "asset",
+  "rawTextureUuid": "c3802398-1bc2-463b-9153-78ccb36aec1b",
+  "size": {
+    "width": 540,
+    "height": 626
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "dragon_effect_darken_layer_normal_mode.png": {
+      "ver": "1.0.6",
+      "uuid": "dc742fb6-3694-4c34-87a5-5f1a5fa3dd4d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c3802398-1bc2-463b-9153-78ccb36aec1b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 540,
+      "height": 626,
+      "rawWidth": 540,
+      "rawHeight": 626,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,118 @@
+
+bian_ske.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base_gold_rotate_c_19_rot
+  rotate: false
+  xy: 578, 820
+  size: 166, 96
+  orig: 166, 96
+  offset: 0, 0
+  index: -1
+base_gold_rotate_c_09
+  rotate: false
+  xy: 1, 325
+  size: 195, 286
+  orig: 198, 288
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_08
+  rotate: false
+  xy: 1, 1
+  size: 211, 322
+  orig: 214, 324
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_03
+  rotate: false
+  xy: 806, 1
+  size: 148, 239
+  orig: 150, 242
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_02
+  rotate: false
+  xy: 198, 325
+  size: 220, 244
+  orig: 222, 246
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_01
+  rotate: false
+  xy: 214, 1
+  size: 219, 243
+  orig: 222, 246
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_00_rot
+  rotate: false
+  xy: 295, 571
+  size: 211, 248
+  orig: 214, 252
+  offset: 2, 2
+  index: -1
+base_gold_rotate_c_18_rot
+  rotate: false
+  xy: 508, 711
+  size: 178, 107
+  orig: 180, 110
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_17
+  rotate: false
+  xy: 508, 581
+  size: 183, 128
+  orig: 186, 130
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_16
+  rotate: false
+  xy: 697, 242
+  size: 220, 157
+  orig: 222, 160
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_15
+  rotate: false
+  xy: 508, 420
+  size: 221, 159
+  orig: 224, 162
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_14
+  rotate: false
+  xy: 578, 1
+  size: 226, 163
+  orig: 228, 166
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_13_rot
+  rotate: false
+  xy: 420, 246
+  size: 275, 172
+  orig: 278, 174
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_12
+  rotate: false
+  xy: 295, 821
+  size: 281, 175
+  orig: 284, 178
+  offset: 2, 1
+  index: -1
+base_gold_rotate_c_11
+  rotate: false
+  xy: 1, 815
+  size: 292, 181
+  orig: 294, 184
+  offset: 1, 1
+  index: -1
+base_gold_rotate_c_10_rot
+  rotate: false
+  xy: 1, 613
+  size: 275, 200
+  orig: 278, 202
+  offset: 2, 1
+  index: -1

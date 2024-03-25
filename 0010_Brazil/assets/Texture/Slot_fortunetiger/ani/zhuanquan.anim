@@ -1,0 +1,25 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "zhuanquan",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 3.7083333333333335,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 3.7083333333333335,
+          "value": -360
+        }
+      ]
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,27 @@
+
+loading_bg.png
+size: 1564,1400
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A_jzy_man_l
+  rotate: true
+  xy: 2, 1036
+  size: 362, 1560
+  orig: 362, 1560
+  offset: 0, 0
+  index: -1
+A_jzy_man_r
+  rotate: true
+  xy: 2, 673
+  size: 361, 1560
+  orig: 361, 1560
+  offset: 0, 0
+  index: -1
+jzy_guang_1
+  rotate: false
+  xy: 2, 2
+  size: 669, 669
+  orig: 669, 669
+  offset: 0, 0
+  index: -1

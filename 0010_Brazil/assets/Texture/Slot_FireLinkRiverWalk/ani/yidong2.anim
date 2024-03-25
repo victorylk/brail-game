@@ -1,0 +1,35 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "yidong2",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 10,
+  "sample": 12,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": -195.418
+        },
+        {
+          "frame": 10,
+          "value": 166.622
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 759.124
+        },
+        {
+          "frame": 10,
+          "value": -723.687
+        }
+      ]
+    }
+  },
+  "events": []
+}

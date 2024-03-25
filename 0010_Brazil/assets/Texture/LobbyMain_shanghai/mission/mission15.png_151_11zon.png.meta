@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "21edfa86-7334-4612-9b7a-fa5b807deb4e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 532,
+  "height": 280,
+  "platformSettings": {},
+  "subMetas": {
+    "mission15.png_151_11zon": {
+      "ver": "1.0.6",
+      "uuid": "de1d40c3-aae1-4aad-b61a-7dbeac18d53c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "21edfa86-7334-4612-9b7a-fa5b807deb4e",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 532,
+      "height": 280,
+      "rawWidth": 532,
+      "rawHeight": 280,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

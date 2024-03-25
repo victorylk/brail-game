@@ -1,0 +1,114 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hongbao",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.75,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "scale": [
+        {
+          "frame": 0,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 0.4,
+            "y": 0.3,
+            "z": 1
+          }
+        },
+        {
+          "frame": 0.5,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 1,
+            "y": 0.8,
+            "z": 1
+          }
+        },
+        {
+          "frame": 0.75,
+          "value": {
+            "__type__": "cc.Vec3",
+            "x": 1,
+            "y": 1,
+            "z": 1
+          }
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 24
+        },
+        {
+          "frame": 0.5,
+          "value": 0
+        }
+      ],
+      "x": [
+        {
+          "frame": 0,
+          "value": -178.844
+        },
+        {
+          "frame": 0.5,
+          "value": 6.388
+        },
+        {
+          "frame": 0.5416666666666666,
+          "value": 0.001
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": 6.388
+        },
+        {
+          "frame": 0.625,
+          "value": 12.775
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": 6.388
+        },
+        {
+          "frame": 0.7083333333333334,
+          "value": -2.128
+        },
+        {
+          "frame": 0.75,
+          "value": 6.388
+        }
+      ],
+      "y": [
+        {
+          "frame": 0,
+          "value": 542.32
+        },
+        {
+          "frame": 0.5,
+          "value": 410.316
+        },
+        {
+          "frame": 0.5416666666666666,
+          "value": 410.316
+        },
+        {
+          "frame": 0.5833333333333334,
+          "value": 410.316
+        },
+        {
+          "frame": 0.625,
+          "value": 410.316
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": 410.316
+        }
+      ]
+    }
+  },
+  "events": []
+}

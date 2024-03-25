@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "2be1efc2-2682-4d8c-854a-9430fb6d748b",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 30,
+  "platformSettings": {},
+  "subMetas": {
+    "agentsystem17.png_25_11zon": {
+      "ver": "1.0.6",
+      "uuid": "a9721843-682e-4809-b755-1ebf04ad007a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "2be1efc2-2682-4d8c-854a-9430fb6d748b",
+      "trimType": "custom",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 120,
+      "height": 30,
+      "rawWidth": 120,
+      "rawHeight": 30,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

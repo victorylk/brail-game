@@ -1,0 +1,27 @@
+info face="Tahoma" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=68 base=27 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="fnt_coin_2.png"
+chars count=23
+char id=37   x=414   y=0     width=46    height=68    xoffset=0     yoffset=0     xadvance=45    page=0  chnl=15
+char id=43   x=40    y=69    width=38    height=68    xoffset=0     yoffset=0     xadvance=37    page=0  chnl=15
+char id=44   x=24    y=138   width=18    height=68    xoffset=0     yoffset=0     xadvance=17    page=0  chnl=15
+char id=46   x=43    y=138   width=14    height=68    xoffset=0     yoffset=0     xadvance=13    page=0  chnl=15
+char id=47   x=483   y=69    width=28    height=68    xoffset=0     yoffset=0     xadvance=27    page=0  chnl=15
+char id=48   x=79    y=69    width=38    height=68    xoffset=0     yoffset=0     xadvance=37    page=0  chnl=15
+char id=49   x=0     y=138   width=23    height=68    xoffset=0     yoffset=0     xadvance=22    page=0  chnl=15
+char id=50   x=448   y=69    width=34    height=68    xoffset=0     yoffset=0     xadvance=33    page=0  chnl=15
+char id=51   x=304   y=69    width=35    height=68    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=52   x=0     y=69    width=39    height=68    xoffset=0     yoffset=0     xadvance=38    page=0  chnl=15
+char id=53   x=340   y=69    width=35    height=68    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=54   x=118   y=69    width=37    height=68    xoffset=0     yoffset=0     xadvance=36    page=0  chnl=15
+char id=55   x=156   y=69    width=36    height=68    xoffset=0     yoffset=0     xadvance=35    page=0  chnl=15
+char id=56   x=376   y=69    width=35    height=68    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=57   x=193   y=69    width=36    height=68    xoffset=0     yoffset=0     xadvance=35    page=0  chnl=15
+char id=66   x=230   y=69    width=36    height=68    xoffset=0     yoffset=0     xadvance=35    page=0  chnl=15
+char id=67   x=0     y=0     width=176   height=68    xoffset=0     yoffset=0     xadvance=175   page=0  chnl=15
+char id=74   x=177   y=0     width=123   height=68    xoffset=0     yoffset=0     xadvance=122   page=0  chnl=15
+char id=75   x=461   y=0     width=40    height=68    xoffset=0     yoffset=0     xadvance=39    page=0  chnl=15
+char id=77   x=359   y=0     width=54    height=68    xoffset=0     yoffset=0     xadvance=53    page=0  chnl=15
+char id=84   x=412   y=69    width=35    height=68    xoffset=0     yoffset=0     xadvance=34    page=0  chnl=15
+char id=99   x=301   y=0     width=57    height=68    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=120  x=267   y=69    width=36    height=68    xoffset=0     yoffset=0     xadvance=35    page=0  chnl=15

@@ -1,0 +1,17 @@
+info face="Arial" size=32 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=32 base=26 scaleW=256 scaleH=512 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="reward.png"
+chars count=13
+char id=37   x=81    y=0     width=61    height=82    xoffset=0     yoffset=0     xadvance=61    page=0  chnl=15
+char id=44   x=0     y=249   width=31    height=82    xoffset=0     yoffset=0     xadvance=31    page=0  chnl=15
+char id=48   x=116   y=83    width=56    height=82    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=49   x=203   y=0     width=36    height=82    xoffset=0     yoffset=0     xadvance=36    page=0  chnl=15
+char id=50   x=171   y=166   width=55    height=82    xoffset=0     yoffset=0     xadvance=55    page=0  chnl=15
+char id=51   x=173   y=83    width=56    height=82    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=52   x=143   y=0     width=59    height=82    xoffset=0     yoffset=0     xadvance=59    page=0  chnl=15
+char id=53   x=0     y=83    width=57    height=82    xoffset=0     yoffset=0     xadvance=57    page=0  chnl=15
+char id=54   x=0     y=166   width=56    height=82    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=55   x=57    y=166   width=56    height=82    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=56   x=114   y=166   width=56    height=82    xoffset=0     yoffset=0     xadvance=56    page=0  chnl=15
+char id=57   x=58    y=83    width=57    height=82    xoffset=0     yoffset=0     xadvance=57    page=0  chnl=15
+char id=58   x=0     y=0     width=80    height=82    xoffset=0     yoffset=0     xadvance=80    page=0  chnl=15

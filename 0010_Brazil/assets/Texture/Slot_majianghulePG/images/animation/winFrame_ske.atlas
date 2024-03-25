@@ -1,0 +1,125 @@
+
+winFrame_ske.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_frame_00
+  rotate: false
+  xy: 521, 287
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_01
+  rotate: false
+  xy: 1, 144
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_02
+  rotate: false
+  xy: 261, 287
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_03
+  rotate: false
+  xy: 1, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_04
+  rotate: false
+  xy: 391, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_05
+  rotate: false
+  xy: 521, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_06
+  rotate: false
+  xy: 131, 144
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_07
+  rotate: false
+  xy: 651, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_08
+  rotate: false
+  xy: 261, 144
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_09
+  rotate: false
+  xy: 521, 144
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_10
+  rotate: false
+  xy: 1, 287
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_11
+  rotate: false
+  xy: 781, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_12
+  rotate: false
+  xy: 391, 144
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_13
+  rotate: false
+  xy: 131, 287
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_14
+  rotate: false
+  xy: 131, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_15
+  rotate: false
+  xy: 261, 1
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1
+win_frame_16
+  rotate: false
+  xy: 391, 287
+  size: 128, 141
+  orig: 130, 142
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,15 @@
+{
+    "__loginIp": "http://127.0.0.1:13000",
+    "loginIp": "http://3.80.4.14:13000",
+    "_loginIp": "购买游戏请联系微信jacksun1983,Youmegame官方网站为www.youmegame.cn",
+    "isUpdate": 1,
+    "lobbySelect": 0,
+    "guest": "abc",
+    "exchangeRate": 100,
+    "versionArray": ["3.0", "1.0", "1.0", "1.0", "1.0", "1.0", "1.0"],
+    "showGame": 0,
+    "withdraw": 0,
+    "iosUpdate": 1000,
+    "iosPay": 1,
+    "versionCode": "ymymymymym12121212qwertyuiop5656_2.0"
+}

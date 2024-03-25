@@ -1,0 +1,34 @@
+
+shuiguodianliang.png
+size: 579,579
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/daliang
+  rotate: false
+  xy: 2, 2
+  size: 53, 61
+  orig: 53, 61
+  offset: 0, 0
+  index: -1
+images/daliang3
+  rotate: false
+  xy: 516, 517
+  size: 50, 60
+  orig: 53, 61
+  offset: 2, 1
+  index: -1
+images/lizi_0003
+  rotate: false
+  xy: 57, 36
+  size: 28, 27
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+images/xx_00
+  rotate: false
+  xy: 2, 65
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

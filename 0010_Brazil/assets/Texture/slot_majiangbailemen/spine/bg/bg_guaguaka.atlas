@@ -1,0 +1,27 @@
+
+bg_guaguaka.png
+size: 276,275
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/suixie_00
+  rotate: false
+  xy: 2, 2
+  size: 135, 140
+  orig: 200, 200
+  offset: 42, 25
+  index: -1
+images/suixie_01
+  rotate: true
+  xy: 139, 3
+  size: 139, 135
+  orig: 200, 200
+  offset: 29, 27
+  index: -1
+images/suixie_02
+  rotate: false
+  xy: 2, 144
+  size: 153, 129
+  orig: 200, 200
+  offset: 28, 3
+  index: -1

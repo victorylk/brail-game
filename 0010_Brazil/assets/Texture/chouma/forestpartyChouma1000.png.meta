@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "a0de269d-e3b5-4ded-a9ba-f9d38f62a2f8",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 96,
+  "height": 101,
+  "platformSettings": {},
+  "subMetas": {
+    "forestpartyChouma1000": {
+      "ver": "1.0.6",
+      "uuid": "f52bae5e-ba22-472c-b29c-e553c541c50c",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "a0de269d-e3b5-4ded-a9ba-f9d38f62a2f8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 96,
+      "height": 101,
+      "rawWidth": 96,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

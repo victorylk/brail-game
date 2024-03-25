@@ -1,0 +1,89 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "baozha",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.4166666666666667,
+  "sample": 24,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "width": [
+        {
+          "frame": 0,
+          "value": 73
+        },
+        {
+          "frame": 0.20833333333333334,
+          "value": 171
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 171
+        }
+      ],
+      "height": [
+        {
+          "frame": 0,
+          "value": 70
+        },
+        {
+          "frame": 0.20833333333333334,
+          "value": 164
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 164
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0.20833333333333334,
+          "value": 255
+        },
+        {
+          "frame": 0.4166666666666667,
+          "value": 0
+        }
+      ]
+    },
+    "paths": {
+      "Fire_Boom": {
+        "props": {
+          "width": [
+            {
+              "frame": 0,
+              "value": 33
+            },
+            {
+              "frame": 0.20833333333333334,
+              "value": 156
+            }
+          ],
+          "height": [
+            {
+              "frame": 0,
+              "value": 38
+            },
+            {
+              "frame": 0.20833333333333334,
+              "value": 179
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 0.20833333333333334,
+              "value": 255
+            },
+            {
+              "frame": 0.4166666666666667,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

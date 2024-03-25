@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "39ac4f44-f2b6-43aa-90f9-2313a4715525",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 400,
+  "height": 235,
+  "platformSettings": {},
+  "subMetas": {
+    "logo_rongyao_small": {
+      "ver": "1.0.6",
+      "uuid": "c0cc3eca-309e-4b20-b9a4-579eed7ec0b0",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "39ac4f44-f2b6-43aa-90f9-2313a4715525",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1,
+      "offsetY": -0.5,
+      "trimX": 0,
+      "trimY": 1,
+      "width": 398,
+      "height": 234,
+      "rawWidth": 400,
+      "rawHeight": 235,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

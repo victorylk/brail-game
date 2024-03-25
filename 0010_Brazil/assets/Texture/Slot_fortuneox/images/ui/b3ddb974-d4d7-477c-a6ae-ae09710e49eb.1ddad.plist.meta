@@ -1,0 +1,59 @@
+{
+  "ver": "1.2.6",
+  "uuid": "972b5091-9026-4ada-82dd-e6c6b27e7dcc",
+  "importer": "asset",
+  "rawTextureUuid": "5c18087c-a684-4cdc-8dbc-23b94cdf914b",
+  "size": {
+    "width": 956,
+    "height": 488
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "mf_mtp_coin_07.png": {
+      "ver": "1.0.6",
+      "uuid": "447b07b1-921c-4f35-9657-396d8ced91ec",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5c18087c-a684-4cdc-8dbc-23b94cdf914b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": true,
+      "offsetX": 21,
+      "offsetY": 10,
+      "trimX": 1,
+      "trimY": 1,
+      "width": 486,
+      "height": 436,
+      "rawWidth": 610,
+      "rawHeight": 576,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    },
+    "mf_mtp_coin_08.png": {
+      "ver": "1.0.6",
+      "uuid": "6f4fa151-a67b-4acb-9bf7-826ec34f0f48",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5c18087c-a684-4cdc-8dbc-23b94cdf914b",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 22,
+      "offsetY": 8,
+      "trimX": 439,
+      "trimY": 1,
+      "width": 516,
+      "height": 464,
+      "rawWidth": 610,
+      "rawHeight": 576,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

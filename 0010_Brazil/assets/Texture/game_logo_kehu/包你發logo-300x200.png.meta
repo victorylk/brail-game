@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "f7a301bd-f3e8-41a0-b3cd-a2b75b83848f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 300,
+  "height": 200,
+  "platformSettings": {},
+  "subMetas": {
+    "包你發logo-300x200": {
+      "ver": "1.0.6",
+      "uuid": "e1cf6cd6-dc1f-4a9f-b15c-7d84f582bebe",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "f7a301bd-f3e8-41a0-b3cd-a2b75b83848f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0.5,
+      "offsetY": 0,
+      "trimX": 13,
+      "trimY": 19,
+      "width": 275,
+      "height": 162,
+      "rawWidth": 300,
+      "rawHeight": 200,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

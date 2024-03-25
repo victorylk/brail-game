@@ -1,0 +1,27 @@
+
+ADV_DS_di1.png
+size: 919,471
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+di2
+  rotate: false
+  xy: 2, 87
+  size: 837, 382
+  orig: 837, 382
+  offset: 0, 0
+  index: -1
+wenancn
+  rotate: true
+  xy: 841, 201
+  size: 268, 76
+  orig: 694, 83
+  offset: 225, 2
+  index: -1
+wenanen
+  rotate: false
+  xy: 2, 2
+  size: 694, 83
+  orig: 694, 83
+  offset: 0, 0
+  index: -1

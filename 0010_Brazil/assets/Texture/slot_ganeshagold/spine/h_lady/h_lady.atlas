@@ -1,0 +1,104 @@
+
+h_lady.png
+size: 490,867
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_lady_000
+  rotate: true
+  xy: 329, 2
+  size: 152, 158
+  orig: 756, 1638
+  offset: 302, 744
+  index: -1
+h_lady_001
+  rotate: true
+  xy: 168, 2
+  size: 152, 159
+  orig: 756, 1638
+  offset: 302, 744
+  index: -1
+h_lady_002
+  rotate: false
+  xy: 333, 189
+  size: 153, 158
+  orig: 756, 1638
+  offset: 302, 743
+  index: -1
+h_lady_003
+  rotate: false
+  xy: 333, 349
+  size: 155, 160
+  orig: 756, 1638
+  offset: 301, 743
+  index: -1
+h_lady_004
+  rotate: false
+  xy: 168, 156
+  size: 161, 166
+  orig: 756, 1638
+  offset: 298, 741
+  index: -1
+h_lady_005
+  rotate: false
+  xy: 168, 324
+  size: 163, 175
+  orig: 756, 1638
+  offset: 297, 738
+  index: -1
+h_lady_006
+  rotate: false
+  xy: 2, 138
+  size: 164, 179
+  orig: 756, 1638
+  offset: 297, 738
+  index: -1
+h_lady_007
+  rotate: false
+  xy: 2, 319
+  size: 164, 180
+  orig: 756, 1638
+  offset: 297, 737
+  index: -1
+h_lady_008
+  rotate: false
+  xy: 2, 501
+  size: 165, 180
+  orig: 756, 1638
+  offset: 296, 737
+  index: -1
+h_lady_009
+  rotate: false
+  xy: 2, 683
+  size: 165, 182
+  orig: 756, 1638
+  offset: 296, 736
+  index: -1
+h_lady_010
+  rotate: false
+  xy: 169, 683
+  size: 163, 182
+  orig: 756, 1638
+  offset: 297, 736
+  index: -1
+h_lady_011
+  rotate: false
+  xy: 169, 503
+  size: 161, 178
+  orig: 756, 1638
+  offset: 298, 738
+  index: -1
+h_lady_012
+  rotate: false
+  xy: 332, 511
+  size: 156, 170
+  orig: 756, 1638
+  offset: 300, 740
+  index: -1
+h_lady_013
+  rotate: false
+  xy: 334, 695
+  size: 154, 170
+  orig: 756, 1638
+  offset: 302, 740
+  index: -1

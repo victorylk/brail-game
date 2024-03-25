@@ -1,0 +1,20 @@
+
+yidong.png
+size: 1004,1002
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/baitiao_00
+  rotate: false
+  xy: 2, 540
+  size: 1000, 460
+  orig: 1000, 1000
+  offset: 0, 500
+  index: -1
+images/xx_00
+  rotate: false
+  xy: 2, 26
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1

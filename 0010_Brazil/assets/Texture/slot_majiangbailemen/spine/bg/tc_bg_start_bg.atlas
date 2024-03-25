@@ -1,0 +1,55 @@
+
+tc_bg_start_bg.png
+size: 1918,1354
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+XXCC
+  rotate: false
+  xy: 1064, 403
+  size: 472, 469
+  orig: 472, 470
+  offset: 0, 0
+  index: -1
+board1_green
+  rotate: false
+  xy: 1538, 423
+  size: 378, 449
+  orig: 380, 450
+  offset: 1, 1
+  index: -1
+board2_yello
+  rotate: true
+  xy: 1064, 5
+  size: 396, 466
+  orig: 396, 466
+  offset: 0, 0
+  index: -1
+board3_bg
+  rotate: false
+  xy: 2, 2
+  size: 1060, 1350
+  orig: 1061, 1357
+  offset: 1, 3
+  index: -1
+ciguang_999
+  rotate: false
+  xy: 1064, 874
+  size: 478, 478
+  orig: 500, 500
+  offset: 11, 11
+  index: -1
+huiguang
+  rotate: false
+  xy: 1544, 1106
+  size: 246, 246
+  orig: 500, 500
+  offset: 128, 127
+  index: -1
+xd
+  rotate: false
+  xy: 1538, 404
+  size: 19, 17
+  orig: 19, 17
+  offset: 0, 0
+  index: -1
