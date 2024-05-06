@@ -7,31 +7,48 @@ cc.Class({
 
     onLoad() {
         this.mainObj = this.node.getComponent('fortunetigerMain');
-        this.playerInfo = require("PlayerInfo").getInstant;
         this.audio = this.node.getComponent('fortunetigerAudio');
 
     },
 
     start() {
+        this.playerInfo = require("PlayerInfo").getInstant;
         this.url = Lhjconfig.Server_IP + ':15168';
         this.socket = io.connect(this.url);
         this.addEvent();
     },
 
+    getBrowserValue: function(value) {
+        var params = {}
+        var query = window.location.search.substring(1).split("&");
+        for (var i = 0; i < query.length; i++) {
+            var pair = query[i].split("=");
+            if (pair.length == 2) {
+                params[pair[0]] = pair[1]
+            }
+        }
+        if (value) {
+            return params[value] || null
+        }
+        return params;
+    },
 
     addEvent() {
         this.socket.on('connected', () => {
+            var t = this.getBrowserValue("t")
             this.socket.emit('LoginGame', JSON.stringify({
                 userid: this.playerInfo.playerId,
                 gametype: null,
-                sign: this.playerInfo.gameSign
+                sign: this.playerInfo.gameSign,
+                token: t,
+                loginIp: this.playerInfo.loginIp
             }));
         });
 
         this.socket.on('loginGameResult', data => {
             data = this.changeResultJSON_Function(data);
             console.log('LoginGameResult:', data);
-            window.fortunetiger_LOBBYNET.disconnect();
+            // window.fortunetiger_LOBBYNET.disconnect();
             this.socket.emit('LoginfreeCount', JSON.stringify({
                 roomid: window.slotMul
             }));
