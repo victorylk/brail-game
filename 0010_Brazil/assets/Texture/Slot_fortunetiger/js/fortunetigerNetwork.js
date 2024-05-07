@@ -97,6 +97,80 @@ cc.Class({
                 this.mainObj.updateRecord(data.Result);
             }
         });
+
+        this.socket.on("loginResult", ret => {
+            console.log('返回登陆信息:' + JSON.stringify(ret));
+            var result = this.changeResultJSON(ret);
+            switch (result.resultid) {
+                case -2:
+                    this.accountChange = false;
+                    switch (this.playerInfo.isAutoLogin) {
+                        case 0:
+                            break;
+                        case 1:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP9_MSG"), 1, 4);
+                            break;
+                        case 2:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP9_MSG"), 1, 0);
+                            break;
+                    }
+                    break;
+                case -1:
+                    this.accountChange = false;
+                    switch (this.playerInfo.isAutoLogin) {
+                        case 0:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP10_MSG"), 1, 0);
+                            break;
+                        case 1:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP10_MSG"), 1, 4);
+                            break;
+                        case 2:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP10_MSG"), 1, 0);
+                            break;
+                    }
+                    break;
+                case 0:
+                    this.accountChange = false;
+                    switch (this.playerInfo.isAutoLogin) {
+                        case 0:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP11_MSG"), 1, 10);
+                            break;
+                        case 1:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP12_MSG"), 1, 4);
+                            break;
+                        case 2:
+                            // this.lobbyMain.showMessagebox_Function(i18n.t("TIP11_MSG"), 1, 10);
+                            break;
+                    }
+                    break;
+                case 1:
+                    this.loginClick = false;
+                    this.playerInfo.account = result.Obj.account;
+                    // this.playerInfo.password = this.lobbyMain.com_Login.getChildByName("eb_Password").getComponent("cc.EditBox").string;
+                    this.playerInfo.loginCode = this.loginCode;
+                    this.playerInfo.gameSign = result.Obj.sign;
+                    this.playerInfo.playerId = result.Obj.id;
+                    this.playerInfo.playerName = result.Obj.nickname;
+                    this.playerInfo.playerCoin = result.Obj.score / this.playerInfo.exchangeRate;
+                    this.playerInfo.playerDiamond = result.Obj.diamond;
+                    this.playerInfo.playerHeadId = result.Obj.headimgurl;
+                    this.playerInfo.iosChannel = result.Obj.ChannelType;
+                    this.playerInfo.win_pool = result.win_pool;
+
+                    if (result.Obj.proplist[1]) {
+                        this.playerInfo.playerGift = result.Obj.proplist[1];
+                    } else {
+                        this.playerInfo.playerGift = 0;
+                    }
+
+                    this.playerInfo.phoneNumber = result.Obj.phoneNo;
+                    this.playerInfo.isOffical = result.Obj.official;
+                    this.playerInfo.gameDisconnect || (this.playerInfo.gameName = "Lobby");         
+                    this.socket.emit("getBankScore")
+                    break;
+            };            
+        });
+
     },
 
     changeResultJSON_Function(ret) {
