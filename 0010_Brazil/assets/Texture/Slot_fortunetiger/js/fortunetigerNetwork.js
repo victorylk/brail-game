@@ -55,6 +55,13 @@ cc.Class({
             if (data.resultid == 1) {
                 this.mainObj.setPool(data.Obj.nGamblingWinPool);
             }
+
+            this.playerInfo.playerId = data.Obj.id;
+            this.playerInfo.playerName = data.Obj.nickname;
+            this.playerInfo.playerCoin = data.Obj.score;            
+            this.playerInfo.playerAccount = data.Obj.account;            
+            this.playerInfo.win_pool = data.Obj.nGamblingWinPool;
+            this.mainObj.slotCtrl.lblUserCoin.string = Helper.fixNum(data.Obj.score);
         });
 
         this.socket.on('lotteryResult', data => {
