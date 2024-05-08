@@ -31,7 +31,8 @@ cc.Class({
                 userid: this.playerInfo.playerId,
                 gametype: null,
                 sign: this.playerInfo.gameSign,
-                token: t
+                token: t,
+                loginIp: this.playerInfo.loginIp
             }));
         });
 
