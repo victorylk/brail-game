@@ -6743,7 +6743,7 @@
         "__id__": 183
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 186
@@ -15050,6 +15050,7 @@
     "coin_panel": {
       "__id__": 5
     },
+    "chooseBet_panel": null,
     "spUserFace": {
       "__id__": 45
     },
@@ -15062,6 +15063,7 @@
     "lblUserCoin2": {
       "__id__": 344
     },
+    "lblUserCoin3": null,
     "lblLines": {
       "__id__": 61
     },
@@ -15071,6 +15073,7 @@
     "lblCurBet2": {
       "__id__": 348
     },
+    "lblCurBet3": null,
     "jackpot_lab": {
       "__id__": 135
     },
@@ -15080,6 +15083,7 @@
     "winCoin_lab2": {
       "__id__": 354
     },
+    "winCoin_lab3": null,
     "bigWinCoin_lab": {
       "__id__": 366
     },
@@ -15092,6 +15096,11 @@
     "chooseAutoNum_lab": {
       "__id__": 245
     },
+    "chooseBet_list1": null,
+    "chooseBet_list2": null,
+    "chooseBet_list3": null,
+    "chooseBet_pb": null,
+    "chooseTotalBet_pb": null,
     "musicBtn": {
       "__id__": 199
     },

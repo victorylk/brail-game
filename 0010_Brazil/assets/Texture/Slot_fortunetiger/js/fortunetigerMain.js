@@ -373,7 +373,9 @@ cc.Class({
         if (this.status == 0) {
             //进入大奖模式
             if (this.lotteryRes.viewarray.getBigWin.isStart) {
+                console.log('进入大奖模式')
                 this.showBigWin();
+                
                 return;
             }
             //结束当前轮盘
@@ -548,6 +550,8 @@ cc.Class({
                     this.auto && this.sendRoll();
                 }
             }
+
+            console.log('auto roll :', rIndex, this.rollIndex, this.autoTimes, this.auto, this.freeTimes);
             if (rIndex == this.rollIndex) {
                 this.auto && this.freeTimes == 0 && this.autoTimes > 0 && this.sendRoll();
             }
@@ -845,6 +849,8 @@ cc.Class({
                         this.winNode.active = false;
                         this.win2BG.active = false;
                         this.win3BG.active = false;
+                        
+                        this.auto && this.freeTimes == 0 && this.autoTimes > 0 && this.sendRoll();
                     }),
                 ));
             }, 2);
