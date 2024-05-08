@@ -252,10 +252,30 @@ cc.Class({
         var nGameid = this.getBrowserValue("gameId")
         switch (nGameid) {
             case '100':
-                window.fortunetiger_LOBBYNET = this.netWork;
+                // window.fortunetiger_LOBBYNET = this.netWork;
                 this.QieHuanScene('Slot_fortunetiger');
                 break
 
+            case "101": 
+                // window.majianghule2PG_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_majianghule2PG');
+                break;
+            case "102":
+                // window.fortuneox_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_fortuneox');
+                break;
+            case "103":
+                // window.fortunemouse_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_fortunemouse');
+                break;
+            case "104":
+                // window.bikiniparadise_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_bikiniparadise');
+                break;
+            case "105":
+                // window.fortunerabbit_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_fortunerabbit');
+                break;
         }
     },
 
