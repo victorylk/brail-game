@@ -39,7 +39,7 @@ cc.Class({
         this.socket.on('loginGameResult', data => {
             data = this.changeResultJSON_Function(data);
             console.log('LoginGameResult:', data);
-            window.majianghule2PG_LOBBYNET.disconnect();
+            // window.majianghule2PG_LOBBYNET.disconnect();
             this.socket.emit('LoginfreeCount');
             if (data.resultid == 1) {
                 this.mainObj.setPool(data.Obj.nGamblingWinPool);

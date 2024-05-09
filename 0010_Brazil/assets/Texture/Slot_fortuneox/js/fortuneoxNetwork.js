@@ -43,7 +43,7 @@ cc.Class({
         this.socket.on('loginGameResult', data => {
             data = this.changeResultJSON_Function(data);
             console.log('LoginGameResult:', data);
-            window.fortuneox_LOBBYNET.disconnect();
+            // window.fortuneox_LOBBYNET.disconnect();
             this.socket.emit('LoginfreeCount', JSON.stringify({
                 roomid: window.slotMul
             }));

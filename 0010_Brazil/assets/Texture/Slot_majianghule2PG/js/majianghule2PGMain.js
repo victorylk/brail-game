@@ -249,7 +249,7 @@ cc.Class({
                 return;
             }
         }
-        console.log("结束旋转");
+        
         //结束当前轮盘
         if (this.lotteryRes.winscore > 0) {
             this.slotCtrl.setSpinAnim(3);
@@ -265,6 +265,14 @@ cc.Class({
         if (this.bIsFreeGame) {
             this.freeGameCoin += this.lotteryRes.winscore;
         }
+
+        console.log("结束旋转", comboCount);
+
+        let nTm = 3
+        if (comboCount > 1) {
+            nTm = 4
+        }
+
         this.schedule(() => {
             this.lotteryView = this.lotteryRes.viewarray.shift();
             if (this.lotteryView.nWinLinesDetail.length == 0) {
@@ -275,7 +283,7 @@ cc.Class({
                 this.setCombo(this.lotteryView.combo_num ? this.lotteryView.combo_num : 0);
                 this.playWinAnim();
             }
-        }, 3, comboCount, 1);
+        }, nTm, comboCount, 1);
     },
 
     rollEnd() {
@@ -375,14 +383,22 @@ cc.Class({
                     this.maskEffectNode.children[i].active = true;
                 }
 
-                for (let j in list[animIndex]) {
-                    this.showAnim(list[animIndex][j] % 5, (this.lotteryView.nHandCards.length / 5 - 1) - parseInt(list[animIndex][j] / 5));
+                let tDeleteIndex = []
+                for (let i = 0; i < 5; i++) {
+                    tDeleteIndex[i] = [];
                 }
+                
+                for (let j in list[animIndex]) {
+                    let nDeleteIndex = this.showAnim(list[animIndex][j] % 5, (this.lotteryView.nHandCards.length / 5 - 1) - parseInt(list[animIndex][j] / 5));
+                    tDeleteIndex[list[animIndex][j] % 5].push(nDeleteIndex)
+                }
+                
                 this.scheduleOnce(() => {
                     for (let i in this.wheelList) {
+                        this.wheelList[i].deleteRollNodes(tDeleteIndex[i]) 
                         this.wheelList[i].vibrateAction();
                     }
-                }, 2);
+                }, 2.9);
                 animIndex++;
             }
         }, 0.5);
@@ -450,6 +466,10 @@ cc.Class({
         this.audio.playBW();
         let targetIdx = this.wheelList[cols].argLen - index;
         this.scheduleOnce(() => {
+            // if(!this.wheelList[cols] || !this.wheelList[cols].rolePbList[targetIdx] || !this.wheelList[cols].rolePbList[targetIdx].children) {
+            //     console.log('输出异常 B ', cols, targetIdx)
+            // }
+
             //判断是否为普通牌
             if (this.wheelList[cols].rolePbList[targetIdx].children[0].active) {
                 if (this.wheelList[cols].roleIdList[targetIdx] < 9) {
@@ -491,9 +511,14 @@ cc.Class({
         nodeList2[cols * 5 + 4 - index].active = true;
         let nodeList3 = this.maskEffectNode.children;
         nodeList3[cols * 5 + 4 - index].active = false;
+        return targetIdx
     },
 
     closeAnim(cols, index) {
+        // if(!this.wheelList[cols] || !this.wheelList[cols].rolePbList[index] || !this.wheelList[cols].rolePbList[index].children) {
+        //     console.log('输出异常 A ', cols, index)
+        // }
+
         let anim = this.wheelList[cols].rolePbList[index].getComponent(cc.Animation);
         anim.setCurrentTime(0);
         anim.stop();

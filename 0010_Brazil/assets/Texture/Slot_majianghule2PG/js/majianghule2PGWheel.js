@@ -129,6 +129,7 @@ cc.Class({
         this.rolePbList.push(pb);
         this.addClickEvent(pb, id);
         this.node.addChild(pb);
+        
     },
 
     rollCallBack() {
@@ -150,12 +151,14 @@ cc.Class({
     },
 
     changeRoll(id, node) {
-        cc.log("remove Roll item :", id, this.wheelId, this.roleIdList[id]);
+        cc.log("remove Roll item :", this.wheelId, id, this.roleIdList[id]);
         if (node.children[3] && node.children[3].active) {
             node.children[3].active = false;
             let pb = cc.instantiate(this.mainObj.rolePb[10]);
             node.addChild(pb);
             this.roleIdList.splice(id, 1, 10);
+
+            
         } else {
             // this.addRole(this.getRandomId());
             //添加一个压缩动作，实现下落效果
@@ -163,9 +166,9 @@ cc.Class({
                 .delay(0.7)
                 .to(0.2, { height: 0 })
                 .call(() => {
-                    this.rolePbList.splice(id, 1);
+                    // this.rolePbList.splice(id, 1);
                     node.destroy();
-                    this.roleIdList.splice(id, 1);
+                    // this.roleIdList.splice(id, 1);
                     // cc.log(node[0], id);
                     this.argLen -= 1;
                     this.lastResult = this.roleIdList.slice(0, 6);
@@ -173,6 +176,24 @@ cc.Class({
                 })
                 .start();
         }
+    },
+
+    deleteRollNodes(tDeleteIndex) {
+        if (tDeleteIndex.length <= 0) {
+            return
+        }
+
+        tDeleteIndex.sort(function (a, b) {
+            return b - a
+        });
+
+        for (let i = 0; i < tDeleteIndex.length; i++) {
+            let id = tDeleteIndex[i]
+            // console.log('delete node name ', this.wheelId, id, this.roleIdList[id].name)
+            this.roleIdList.splice(id, 1);
+            this.rolePbList.splice(id, 1);
+        }
+        
     },
 
     vibrateAction() {
