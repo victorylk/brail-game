@@ -1,7 +1,6 @@
 const ROLENUM = 40; //每一轮的角色数量
 const TIMEMIN = 1; //第一轮摇奖时间
-const LISTHEIGHT_04 = 942;  // 942
-const LISTHEIGHT_OTHER = 989;  // 989
+
 cc.Class({
     extends: cc.Component,
 
@@ -40,10 +39,10 @@ cc.Class({
         this.addRole(this.getRandomId());
         if (this.wheelId == 0 || this.wheelId == 4) {
             this.widget.bottom = 100;
-            this.moveY = LISTHEIGHT_04;
+            this.moveY = 942;
         } else {
             this.widget.bottom = 20;
-            this.moveY = LISTHEIGHT_OTHER;
+            this.moveY = 989;
         }
         this.widget.updateAlignment();
         this.mainObj.rollIndex++;
@@ -83,22 +82,19 @@ cc.Class({
 
         this.argLen = args.length;
         // this.moveY = 840 + (args.length - 5) * 140;
-        let offsetY = 0
         if (this.wheelId == 0 || this.wheelId == 4) {
-            this.moveY = LISTHEIGHT_04 + (args.length - 5) * 140;
-            offsetY = -32;
+            this.moveY = 942 + (args.length - 5) * 140;
         } else {
-            this.moveY = LISTHEIGHT_OTHER + (args.length - 5) * 140;
-            offsetY = -16;
+            this.moveY = 989 + (args.length - 5) * 140;
         }
         setTimeout(() => {
             let timer = TIMEMIN + this.wheelId * 0.2;
             this.node.runAction(
                 cc.sequence(
                     //cc.delayTime(0.2),
-                    cc.moveTo(timer, cc.v2(this.node.x, -this.node.height + this.moveY + offsetY)),      
-                    cc.moveTo(0.1, cc.v2(this.node.x, -this.node.height + this.moveY + 30)),  
-                    cc.moveTo(0.1, cc.v2(this.node.x, -this.node.height + this.moveY + offsetY)),        
+                    cc.moveTo(timer, cc.v2(this.node.x, -this.node.height + this.moveY)),
+                    cc.moveTo(0.1, cc.v2(this.node.x, -this.node.height + this.moveY + 30)),
+                    cc.moveTo(0.1, cc.v2(this.node.x, -this.node.height + this.moveY)),
                     cc.callFunc(this.rollCallBack.bind(this))
                 )
             );
