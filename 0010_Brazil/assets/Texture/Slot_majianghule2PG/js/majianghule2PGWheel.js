@@ -86,10 +86,10 @@ cc.Class({
         let offsetY = 0
         if (this.wheelId == 0 || this.wheelId == 4) {
             this.moveY = LISTHEIGHT_04 + (args.length - 5) * 140;
-            offsetY = -32;
+            offsetY = -22;
         } else {
             this.moveY = LISTHEIGHT_OTHER + (args.length - 5) * 140;
-            offsetY = -16;
+            offsetY = -12;
         }
         setTimeout(() => {
             let timer = TIMEMIN + this.wheelId * 0.2;
