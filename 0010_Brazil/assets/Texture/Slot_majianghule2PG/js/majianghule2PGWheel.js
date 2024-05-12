@@ -45,6 +45,7 @@ cc.Class({
             this.widget.bottom = 20;
             this.moveY = LISTHEIGHT_OTHER;
         }
+
         this.widget.updateAlignment();
         this.mainObj.rollIndex++;
         this.argLen = 0;
@@ -86,11 +87,12 @@ cc.Class({
         let offsetY = 0
         if (this.wheelId == 0 || this.wheelId == 4) {
             this.moveY = LISTHEIGHT_04 + (args.length - 5) * 140;
-            offsetY = -22;
+            offsetY = 40
         } else {
             this.moveY = LISTHEIGHT_OTHER + (args.length - 5) * 140;
-            offsetY = -12;
+            offsetY = 20
         }
+       
         setTimeout(() => {
             let timer = TIMEMIN + this.wheelId * 0.2;
             this.node.runAction(
@@ -130,6 +132,17 @@ cc.Class({
             pb.children[0].active = false;
             pb.children[2].active = true;
         }
+
+        let kuang_effect = pb.getChildByName('kuang_effect')
+        if (kuang_effect) {
+            kuang_effect.active = false
+        }
+
+        let mask = pb.getChildByName('mask')
+        if (mask) {
+            mask.active = false
+        }
+
         this.rolePbList.push(pb);
         this.addClickEvent(pb, id);
         this.node.addChild(pb);
@@ -198,6 +211,53 @@ cc.Class({
             this.rolePbList.splice(id, 1);
         }
         
+    },
+
+    // 显示高亮
+    showHighEffect(node) {
+        if (!node) {
+            return
+        }
+        
+        let kuang_effect = node.getChildByName('kuang_effect')
+        if (kuang_effect) {
+            kuang_effect.active = true
+        }
+    },  
+    
+    hideHightEffect() {
+        for (let pb of this.rolePbList) {
+            if (pb && pb.children) {
+                let kuang_effect = pb.getChildByName('kuang_effect')
+                if (kuang_effect) {
+                    kuang_effect.active = false
+                }
+            }
+     
+        }        
+    },
+
+    hideMaskEffect(node) {
+        if (!node) {
+            return
+        }
+        
+        let kuang_effect = node.getChildByName('mask')
+        if (kuang_effect) {
+            kuang_effect.active = false
+        }
+    },  
+    
+    showAllMasktEffect(bShow) {
+        for (let pb of this.rolePbList) {
+            if (pb && pb.children) {
+                let kuang_effect = pb.getChildByName('mask')
+                if (kuang_effect) {
+                    kuang_effect.active = bShow
+                }
+            }
+     
+        }        
     },
 
     vibrateAction() {

@@ -379,8 +379,12 @@ cc.Class({
                     return;
                 }
 
-                for (let i in this.maskEffectNode.children) {
-                    this.maskEffectNode.children[i].active = true;
+                // for (let i in this.maskEffectNode.children) {
+                //     this.maskEffectNode.children[i].active = true;
+                // }
+
+                for (let i=0; i<5; i++){
+                    this.wheelList[i].showAllMasktEffect(true)
                 }
 
                 let tDeleteIndex = []
@@ -493,13 +497,19 @@ cc.Class({
                 nodeList[cols * 5 + 4 - index].active = true;
                 let spineNode = nodeList[cols * 5 + 4 - index].children[0].getComponent(sp.Skeleton);
                 spineNode.setAnimation(0, "winCoin", false);
-                let nodeList2 = this.winEffectNode.children;
-                for (let i in nodeList2) {
-                    nodeList2[i].active = false;
+                this.wheelList[cols].hideHightEffect()
+                // let nodeList2 = this.winEffectNode.children;
+                // for (let i in nodeList2) {
+                //     nodeList2[i].active = false;
+                // }
+                // for (let i in this.maskEffectNode.children) {
+                //     this.maskEffectNode.children[i].active = false;
+                // }
+
+                for (let i=0; i<5; i++){
+                    this.wheelList[i].showAllMasktEffect(false)
                 }
-                for (let i in this.maskEffectNode.children) {
-                    this.maskEffectNode.children[i].active = false;
-                }
+
             }, 0.3);
             this.scheduleOnce(() => {
                 this.wheelList[cols].changeRoll(targetIdx, this.wheelList[cols].rolePbList[targetIdx]);
@@ -507,10 +517,14 @@ cc.Class({
             }, 1);
         }, 1);
         //添加结束
-        let nodeList2 = this.winEffectNode.children;
-        nodeList2[cols * 5 + 4 - index].active = true;
-        let nodeList3 = this.maskEffectNode.children;
-        nodeList3[cols * 5 + 4 - index].active = false;
+        // let nodeList2 = this.winEffectNode.children;
+        // nodeList2[cols * 5 + 4 - index].active = true;
+        this.wheelList[cols].showHighEffect(this.wheelList[cols].rolePbList[targetIdx])
+
+        // let nodeList3 = this.maskEffectNode.children;
+        // nodeList3[cols * 5 + 4 - index].active = false;
+        this.wheelList[cols].hideMaskEffect(this.wheelList[cols].rolePbList[targetIdx])
+
         return targetIdx
     },
 
@@ -650,13 +664,18 @@ cc.Class({
 
     closeShine() {
         let nodeList1 = this.boomEffectNode.children;
-        let nodeList2 = this.winEffectNode.children;
+        // let nodeList2 = this.winEffectNode.children;
         for (let i in nodeList1) {
             nodeList1[i].active = false;
         }
-        for (let i in nodeList2) {
-            nodeList2[i].active = false;
+        // for (let i in nodeList2) {
+        //     nodeList2[i].active = false;
+        // }
+
+        for (let i=0; i<5; i++){
+            this.wheelList[i].hideHightEffect()
         }
+        
     },
 
     sendRoll() {
