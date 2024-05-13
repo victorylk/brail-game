@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "69dbe13a-42bb-4464-8b7e-91236497e0e1",
+  "importer": "asset",
+  "rawTextureUuid": "6161f394-f9bc-44c7-b363-6f5845139255",
+  "size": {
+    "width": 40,
+    "height": 40
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "default_btn_normal.png": {
+      "ver": "1.0.6",
+      "uuid": "815e5045-5b2f-4940-82ba-ab6188366583",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "6161f394-f9bc-44c7-b363-6f5845139255",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 40,
+      "height": 40,
+      "rawWidth": 40,
+      "rawHeight": 40,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

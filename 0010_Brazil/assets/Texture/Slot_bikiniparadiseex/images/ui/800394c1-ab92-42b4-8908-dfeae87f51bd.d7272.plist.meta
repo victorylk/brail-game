@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "d06e34be-d062-41d1-9030-176cfa5ae32d",
+  "importer": "asset",
+  "rawTextureUuid": "c8fbffcd-3f58-43f0-8a92-83c61c16c77e",
+  "size": {
+    "width": 164,
+    "height": 265
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "infoboard_01_flower_left.png": {
+      "ver": "1.0.6",
+      "uuid": "accc9fc4-60f0-4fcf-9afc-f4334d62db18",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "c8fbffcd-3f58-43f0-8a92-83c61c16c77e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 164,
+      "height": 265,
+      "rawWidth": 164,
+      "rawHeight": 265,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

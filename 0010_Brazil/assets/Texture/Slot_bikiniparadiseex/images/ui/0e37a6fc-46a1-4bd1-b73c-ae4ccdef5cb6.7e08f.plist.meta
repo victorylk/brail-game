@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "69e69a9a-2f59-4988-afc0-b01dbb86f705",
+  "importer": "asset",
+  "rawTextureUuid": "ec29ef79-e39c-4e1d-a5c2-93ea01e77de4",
+  "size": {
+    "width": 540,
+    "height": 539
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "ui_reel_mask.png": {
+      "ver": "1.0.6",
+      "uuid": "52647987-0f7f-4b54-9717-a61e7152c301",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ec29ef79-e39c-4e1d-a5c2-93ea01e77de4",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 540,
+      "height": 539,
+      "rawWidth": 540,
+      "rawHeight": 539,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}

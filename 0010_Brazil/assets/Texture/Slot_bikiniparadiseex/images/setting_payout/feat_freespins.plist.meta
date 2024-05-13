@@ -1,0 +1,36 @@
+{
+  "ver": "1.2.6",
+  "uuid": "f8dcc2d9-e785-4c48-8099-9c9651679847",
+  "importer": "asset",
+  "rawTextureUuid": "0f014bc7-efec-4060-86bf-d8e2f80e5244",
+  "size": {
+    "width": 468,
+    "height": 470
+  },
+  "type": "Texture Packer",
+  "subMetas": {
+    "feat_freespins.png": {
+      "ver": "1.0.6",
+      "uuid": "14062cf7-c087-4f1e-b5d0-cd1dd0f82c9a",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "0f014bc7-efec-4060-86bf-d8e2f80e5244",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 10,
+      "offsetY": 0,
+      "trimX": 96,
+      "trimY": 6,
+      "width": 296,
+      "height": 458,
+      "rawWidth": 468,
+      "rawHeight": 470,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "spriteType": "normal",
+      "subMetas": {}
+    }
+  }
+}
