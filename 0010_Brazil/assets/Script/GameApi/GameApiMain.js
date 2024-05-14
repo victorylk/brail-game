@@ -270,7 +270,7 @@ cc.Class({
                 break;
             case "266":
                 // window.bikiniparadise_LOBBYNET = lobbySocket;
-                this.QieHuanScene('Slot_bikiniparadise');
+                this.QieHuanScene('Slot_bikiniparadiseex');
                 break;
             case "270":
                 // window.fortunerabbit_LOBBYNET = lobbySocket;
