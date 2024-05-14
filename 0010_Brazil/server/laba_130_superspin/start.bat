@@ -1,1 +1,0 @@
-title laba_130_superspin&&node app
