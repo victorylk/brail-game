@@ -567,7 +567,11 @@ cc.Class({
         this.bigWinNode.children[0].active = true;
         this.bigWinNode.children[1].active = false;
         this.bigWinNode.children[2].active = false;
-        this.bigWinNode.children[0].getComponent(cc.Animation).play();
+        if (this.bigWinNode.children[0].getComponent(cc.Animation)) {
+            this.bigWinNode.children[0].getComponent(cc.Animation).play();
+        }
+        
+       
         this.playBigWinCoin(coin);
     },
     //大奖SuperWin动画
@@ -576,7 +580,10 @@ cc.Class({
         this.bigWinNode.children[0].active = false;
         this.bigWinNode.children[1].active = true;
         this.bigWinNode.children[2].active = false;
-        this.bigWinNode.children[1].getComponent(cc.Animation).play();
+        if (this.bigWinNode.children[1].getComponent(cc.Animation)) {
+            this.bigWinNode.children[1].getComponent(cc.Animation).play();
+        }
+        
         this.playBigWinCoin(coin);
     },
     //大奖MegaWin动画
@@ -585,7 +592,9 @@ cc.Class({
         this.bigWinNode.children[0].active = false;
         this.bigWinNode.children[1].active = false;
         this.bigWinNode.children[2].active = true;
-        this.bigWinNode.children[2].getComponent(cc.Animation).play();
+        if (this.bigWinNode.children[2].getComponent(cc.Animation)) {
+            this.bigWinNode.children[2].getComponent(cc.Animation).play();
+        }
         this.playBigWinCoin(coin);
     },
 
