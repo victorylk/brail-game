@@ -13,7 +13,7 @@ cc.Class({
     },
 
     start() {
-        this.url = Lhjconfig.Server_IP + ':15170';
+        this.url = Lhjconfig.Server_IP + ':15171';
         this.socket = io.connect(this.url);
         this.addEvent();
     },

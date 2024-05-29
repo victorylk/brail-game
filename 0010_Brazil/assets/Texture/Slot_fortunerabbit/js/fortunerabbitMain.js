@@ -317,11 +317,14 @@ cc.Class({
                     }
                     for (let j = 0; j <= n; j++) {
                         if (this.wheelList[i].roleIdList[j + 1] == 7) {
-                            this.wheelList[i].rolePbList[j + 1].children[0].getComponent(sp.Skeleton).setAnimation(0, "idle", true);
                             let pb = cc.instantiate(this.wildEffectPb);
-                            let newVec2 = this.wheelList[i].rolePbList[j + 1].convertToWorldSpaceAR(cc.v2(0, 0));
-                            let p = this.node.convertToNodeSpaceAR(newVec2);
-                            pb.position = p;
+                            if (this.wheelList[i].rolePbList[j + 1]) {
+                                this.wheelList[i].rolePbList[j + 1].children[0].getComponent(sp.Skeleton).setAnimation(0, "idle", true)
+                                let newVec2 = this.wheelList[i].rolePbList[j + 1].convertToWorldSpaceAR(cc.v2(0, 0));
+                                let p = this.node.convertToNodeSpaceAR(newVec2);
+                                pb.position = p;
+                            }
+                            
                             this.node.addChild(pb);
                             pb.runAction(cc.sequence(
                                 cc.delayTime(0.5),
@@ -332,9 +335,12 @@ cc.Class({
                                 cc.removeSelf()
                             ))
                         } else if (this.wheelList[i].roleIdList[j + 1] != 8) {
-                            this.wheelList[i].rolePbList[j + 1].children[0].active = true;
-                            this.wheelList[i].rolePbList[j + 1].children[1].active = false;
-                            this.wheelList[i].rolePbList[j + 1].children[0].getComponent(sp.Skeleton).setAnimation(0, "spawn", false);
+                            if (this.wheelList[i].rolePbList[j + 1]) {
+                                this.wheelList[i].rolePbList[j + 1].children[0].active = true;
+                                this.wheelList[i].rolePbList[j + 1].children[1].active = false;
+                                this.wheelList[i].rolePbList[j + 1].children[0].getComponent(sp.Skeleton).setAnimation(0, "spawn", false);
+                            }
+
                         }
                     }
                 }
@@ -521,9 +527,12 @@ cc.Class({
     showAnim(cols, index) {
         this.audio.playBW();
         let targetIdx = index + 1;
-        for (let i in this.wheelList[cols].rolePbList[targetIdx].children) {
-            this.wheelList[cols].rolePbList[targetIdx].children[i].active = false;
+        if (this.wheelList[cols].rolePbList[targetIdx]) {
+            for (let i in this.wheelList[cols].rolePbList[targetIdx].children) {
+                this.wheelList[cols].rolePbList[targetIdx].children[i].active = false;
+            }
         }
+     
 
         //添加结束
         let nodeList = this.effectLight.children;
@@ -540,8 +549,11 @@ cc.Class({
         // for (let i in this.wheelList[cols].rolePbList[targetIdx].children) {
         //     this.wheelList[cols].rolePbList[targetIdx].children[i].active = true;
         // }
-        this.wheelList[cols].rolePbList[targetIdx].children[0].active = true;
 
+        if (this.wheelList[cols].rolePbList[targetIdx]) {
+            this.wheelList[cols].rolePbList[targetIdx].children[0].active = true;
+        }
+        
         //添加结束
         let nodeList = this.effectLight.children;
         nodeList[cols * 4 + index].active = false;
@@ -599,7 +611,7 @@ cc.Class({
 
         for (let i = 0; i < this.wheelList.length; i++) {
             for (let j = 0; j < this.wheelList[i].rolePbList.length; j++) {
-                if (this.wheelList[i].roleIdList[j] != 8) {
+                if ((this.wheelList[i].roleIdList[j] != 8) && this.wheelList[i].rolePbList[j]) {
                     this.wheelList[i].rolePbList[j].children[0].active = true;
                     this.wheelList[i].rolePbList[j].children[1].active = false;
                 }

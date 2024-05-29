@@ -105,13 +105,21 @@ cc.Class({
 
     addRole(id, num) {
         let pb = cc.instantiate(this.mainObj.rolePb[id]);
-        if (num) {
-            pb.children[1].active = num <= 10;
-            pb.children[2].active = (num <= 100 && num > 10);
-            pb.children[3].active = (num <= 1000 && num > 100);
-            pb.children[1].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
-            pb.children[2].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
-            pb.children[3].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
+        if (num && pb) {
+            if (pb.children[1]) {
+                pb.children[1].active = num <= 10;
+                pb.children[1].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
+            }
+
+            if (pb.children[2]) {
+                pb.children[2].active = (num <= 100 && num > 10);
+                pb.children[2].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
+            }
+            
+            if (pb.children[2]) {
+                pb.children[3].active = (num <= 1000 && num > 100);
+                pb.children[3].getComponent(cc.Label).string = Helper.fixNum(num * this.mainObj.lotteryRes.viewarray.nBet);
+            }
         }
         this.rolePbList.push(pb);
         this.roleIdList.push(id);
@@ -151,6 +159,10 @@ cc.Class({
     },
 
     addClickEvent(node, idx) {
+        if (!node) {
+            return
+        }
+
         let clickEventHandler = new cc.Component.EventHandler();
         clickEventHandler.target = this.node; // 这个 node 节点是你的事件处理代码组件所属的节点
         clickEventHandler.component = "fortunerabbitWheel";// 这个是代码文件名
