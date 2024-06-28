@@ -61,7 +61,7 @@ cc.Class({
             if (!!data.ResultCode && data.ResultCode == 1) {
                 this.mainObj.lotteryRes = JSON.parse(JSON.stringify(data.ResultData));
                 this.mainObj.slotCtrl.lblUserCoin.string = Helper.fixNum(data.ResultData.userscore - data.ResultData.winscore);
-                this.mainObj.roll(data.ResultData.viewarray.nHandCards);
+                this.mainObj.roll(data.ResultData.viewarray.nHan·   dCards);
             } else {
                 this.mainObj.status = 0;
                 cc.find("Canvas/com_tishi").active = true;

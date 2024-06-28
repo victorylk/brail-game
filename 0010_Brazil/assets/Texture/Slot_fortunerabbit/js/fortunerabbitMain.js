@@ -1,6 +1,7 @@
 const BETNUM = [5, 50, 400]; //单注值
 const LINES = 10; //线数
 const BET = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+import { GameGlobal } from "./../../../Script/utils/GameGlobal";
 cc.Class({
     extends: cc.Component,
 
@@ -166,6 +167,15 @@ cc.Class({
         this.freeGameCoin = 0;
         this.bIsFreeGame = false;
         this.delayClick = false;
+
+        if (GameGlobal.LANG == 'cn') {
+            this.helpUI.children[2].active = true
+            this.help2UI.children[2].active = true
+        }
+        else {
+            this.helpUI.children[3].active = true
+            this.help2UI.children[3].active = true
+        }
     },
 
     start() {
@@ -656,8 +666,10 @@ cc.Class({
         this.slotCtrl.jackpot_lab.string = Helper.fixNum(coin);
     },
 
-    updateRecord(data) {
+    updateRecord(data) { 
+        data = data.splice(0, 50)       
         data.reverse();
+        // data = data.splice(-50)
         this.recordScrollView.content.removeAllChildren();
         for (let i = 0; i < data.length; i++) {
             let newNode = cc.instantiate(this.recordPb);

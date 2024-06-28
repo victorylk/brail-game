@@ -1,6 +1,7 @@
 const BETNUM = [2, 10, 100, 250]; //单注值
 const LINES = 20; //线数
 const BET = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+import { GameGlobal } from "./../../../Script/utils/GameGlobal";
 cc.Class({
     extends: cc.Component,
 
@@ -122,6 +123,25 @@ cc.Class({
         this.stopFree = false;
         this.isFreeStart = false;
         this.isFreeEnd = false;
+
+        // if (GameGlobal.LANG == 'cn') {
+        //     this.helpUI.children[2].active = true
+        //     this.help2UI.children[2].active = true
+        // }
+        // else {
+        //     this.helpUI.children[3].active = true
+        //     this.help2UI.children[3].active = true
+        // }
+    },
+
+    getUrlCode_Function(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+        var result = window.location.search.substr(1).match(reg);
+        return result ? decodeURIComponent(result[2]) : null;
+    },
+
+    getLanguage() {
+        return this.getUrlCode_Function('lang')
     },
 
     start() {
@@ -268,7 +288,7 @@ cc.Class({
 
         console.log("结束旋转", comboCount);
 
-        let nTm = 3
+        let nTm = 2
         if (comboCount > 1) {
             nTm = 4
         }
@@ -327,7 +347,7 @@ cc.Class({
             if (rIndex == this.rollIndex) {
                 this.auto && this.freeTimes == 0 && this.sendRoll();
             }
-        }, 1);
+        }, 0.2);
     },
     playWinAnim() {
         if (!this.lotteryView) {
@@ -708,6 +728,7 @@ cc.Class({
     },
 
     updateRecord(data) {
+        data = data.splice(0, 50)  
         data.reverse();
         this.recordScrollView.content.removeAllChildren();
         for (let i = 0; i < data.length; i++) {

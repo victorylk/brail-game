@@ -1,5 +1,5 @@
 const ROLENUM = 40; //每一轮的角色数量
-const TIMEMIN = 1; //第一轮摇奖时间
+const TIMEMIN = 0.2; //第一轮摇奖时间
 const LISTHEIGHT_04 = 942;  // 942
 const LISTHEIGHT_OTHER = 989;  // 989
 cc.Class({
@@ -94,7 +94,7 @@ cc.Class({
         }
        
         setTimeout(() => {
-            let timer = TIMEMIN + this.wheelId * 0.2;
+            let timer = TIMEMIN + this.wheelId * 0.1;
             this.node.runAction(
                 cc.sequence(
                     //cc.delayTime(0.2),
