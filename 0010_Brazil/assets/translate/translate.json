@@ -1,0 +1,361 @@
+﻿{
+    "KEY_CLOSE": {
+        "cn": "退出",
+        "en": "exit"
+    },
+    "KEY_SOUND": {
+        "cn": "声音",
+        "en": "Music"
+    },
+    "KEY_HELP": {
+        "cn": "帮助",
+        "en": "Help"
+    },
+    "KEY_PEIFUBIAO": {
+        "cn": "赔付表",
+        "en": "Payout Table"
+    },
+    "KEY_RECORD": {
+        "cn": "记录",
+        "en": "record"
+    },
+
+    "KEY_RECORD_TITLE": {
+        "cn": "游戏记录",
+        "en": "Game history"
+    },
+
+    "KEY_RECORD_TITLE1": {
+        "cn": "时间\n(GMT + 8:00)",
+        "en": "Tempo\n(GMT + 8:00)"
+    },
+    "KEY_RECORD_TITLE2": {
+        "cn": "交易",
+        "en": "Transaction"
+    },
+
+    "KEY_RECORD_TITLE3": {
+        "cn": "赌注",
+        "en": "Bet"
+    },
+    "KEY_RECORD_TITLE4": {
+        "cn": "利润",
+        "en": "Profit"
+    },
+
+    "KEY_RULE": {
+        "cn": "规则",
+        "en": "Rule"
+    },
+
+    "MJPLB_1": {
+        "cn": "符号赔率值",
+        "en": "Payout Table"
+    },
+    "MJPLB_2": {
+        "cn": "金色麻将符号",
+        "en": "Golden Mahjong Symbols"
+    },
+    "MJPLB_3": {
+        "cn": "奖金翻倍",
+        "en": "Double your bonus"
+    },
+    "MJPLB_4": {
+        "cn": "免费旋转模式",
+        "en": "Free Spins Mode"
+    },
+    "MJPLB_5": {
+        "cn": "1024路",
+        "en": "1024 routes"
+    },
+    "MJPLB_6": {
+        "cn": "参考以上例子：",
+        "en": "Refer to the above example:"
+    },
+    "MJPLB_7": {
+        "cn": "本例中的总赢奖",
+        "en": "Total win in this example"
+    },
+    "MJPLB_8": {
+        "cn": "1 x 3 x 2 = 6",
+        "en": "1 x 3 x 2 = 6"
+    },
+    "MJPLB_9": {
+        "cn": "百搭符号可替代除夺宝符号外的所有符号。",
+        "en": "The Wild symbol substitutes for all symbols except the Scatter symbol."
+    },
+    "MJPLB_10": {
+        "cn": "金色麻将只出现在第2，第3，和第4转轴上.",
+        "en": "Golden Mahjong only appears on the 2nd, 3rd, and 4th reels."
+    },
+    "MJPLB_11": {
+        "cn": "  在任何旋转期间，第2、第3和/或第4上的某些符号 (不包括百搭符号和夺宝符号)将可能显示为金色。",
+        "en": "  During any spin, certain symbols on the 2nd, 3rd and/or 4th positions (excluding Wild and Scatter symbols) may appear gold."
+    },
+    "MJPLB_12": {
+        "cn": "  在新符号跌落后的每一轮旋转中，上一轮赢奖中所涉及的金色麻将符号被转换为百搭符号。",
+        "en": "  In each spin after the new symbols fall, the golden Mahjong symbols involved in the previous round of winnings are transformed into wild symbols."
+    },
+    "MJPLB_13": {
+        "cn": "  在任何旋转期间，所有赢奖都将乘以卷轴上方所显示的乘数值，第一轮旋转以x1开始。",
+        "en": "  During any spin, all wins are multiplied by the multiplier value shown above the reels, starting with x1 for the first spin."
+    },
+    "MJPLB_14": {
+        "cn": "  第一轮旋转中的任何赢奖都会使第二轮旋转的乘数递增到x2。",
+        "en": "  Any wins from the first spin will increase the multiplier to x2 for the second spin."
+    },
+    "MJPLB_15": {
+        "cn": "  第二轮旋转中的任何赢奖都会使第三轮旋转的乘数递增到x3。",
+        "en": "  Any wins during the second spin will increase the multiplier to x3 for the third spin."
+    },
+    "MJPLB_16": {
+        "cn": "  免费旋转模式期间，卷轴上方的乘数将分别增加至x2x4、x6和x10。",
+        "en": "  During the Free Spins mode, the multiplier above the reels will increase to x2x4, x6 and x10 respectively"
+    },
+    "MJPLB_17": {
+        "cn": "  中奖路的奖金计算方式是按照从卷轴的最左边到最右边每个赢奖符号相邻的数目乘以该符号的中奖路数目。",
+        "en": "  The winnings for a winning path are calculated by multiplying the number of adjacent winning symbols from the leftmost to the rightmost side of the reel by the number of winning paths for that symbol."
+    },
+    "MJPLB_18": {
+        "cn": "  每轮游戏结束并发放奖金后，所有赢奖符号都将爆炸消除，让其上方的符号向下跌落以进行新一轮的旋转。",
+        "en": "  After each round of the game is over and the bonus is paid, all winning symbols will explode and the symbols above them will fall down to start a new round of spins"
+    },
+    "MJPLB_19": {
+        "cn": "  额外的中奖组合都将计入每次旋转的赢奖中，直到没有其他中奖组合",
+        "en": "  Additional winning combinations are added to the winnings on each spin until there are no more winning combinations."
+    },
+    "MJPLB_20": {
+        "cn": "  所有中奖以现金显示",
+        "en": "  All winnings are shown in cash"
+    },
+
+    "MJPLB_21": {
+        "cn": "  赢奖符号的赔付是由该符号的赔付值乘以中奖路的数目所得。",
+        "en": "  The payout for a winning symbol is calculated by multiplying the payout value of that symbol by the number of winning ways."
+    },
+    "MJPLB_22": {
+        "cn": "  免费旋转可以被重复触发",
+        "en": "  Free spins can be triggered repeatedly"
+    },
+    "MJPLB_23": {
+        "cn": "  中奖路奖金按照从最左至右转轴的顺序派发",
+        "en": "  The winnings are distributed in the order from the leftmost to the rightmost reel."
+    },
+    "MJPLB_24": {
+        "cn": "当3个夺宝符号出现在卷轴的任意位置时，免费旋转模式将被触发并获得12次免费旋转。每个额外的夺宝符号都将触发多2次的免费旋转。",
+        "en": "When 3 Scatter symbols appear anywhere on the reels, the Free Spins mode will be triggered and 12 free spins will be awarded. Each additional Scatter symbol will trigger 2 more free spins."
+    },
+    "MJPLB_25": {
+        "cn": "百搭副号",
+        "en": "Wild Symbol"
+    },
+    "MJPLB_26": {
+        "cn": "夺宝符号",
+        "en": "Treasure Symbols"
+    },
+
+
+    "start_up_condition_label": {
+        "cn": "满人即开局",
+        "en": "Full Open"
+    },
+    "record": {
+        "cn": "记录",
+        "en": "record"
+    },
+    "rank": {
+        "cn": "排行榜",
+        "en": "rank"
+    },
+    "cur_balance": {
+        "cn": "当前账户剩余{0}",
+        "en": "Current account balance: {0}"
+    },
+    "selfplayer": {
+        "cn": "自己",
+        "en": "self"
+    },
+    "room_access": {
+        "cn": "准入: {0}",
+        "en": "Acess: {0}"
+    },
+    "room_point": {
+        "cn": "分数: {0}",
+        "en": "Point: {0}"
+    },
+    "room_1_tittle": {
+        "cn": "初级房",
+        "en": "EXPER\nROOMIENCE"
+    },
+    "room_2_tittle": {
+        "cn": "中级房",
+        "en": "ORDINARY\nROOM"
+    },
+    "room_3_tittle": {
+        "cn": "高级房",
+        "en": "Vip Room"
+    },
+    "room_4_tittle": {
+        "cn": "贵宾房",
+        "en": "LUXURY\nROOM"
+    },
+
+    "loading_text": {
+        "cn": "努力加载中{0}",
+        "en": "Loading hard{0}"
+    },
+    "no_bet_turn": {
+        "cn": "还未到下注时间",
+        "en": "It’s not time to place your bet yet"
+    },
+    "not_access": {
+        "cn": "未到达准入金额",
+        "en": "The admission amount has not been reached"
+    },
+    "net_work_anomaly": {
+        "cn": "网络异常",
+        "en": "network anomaly"
+    },
+    "player_is_walking": {
+        "cn": "玩家正在走",
+        "en": "player is walking"
+    },
+    "settleing": {
+        "cn": "停止下注，等待结算！",
+        "en": "settling"
+    },
+    "label_back_to_home": {
+        "cn": "{0}秒后返回首页",
+        "en": "{0}S Back To Home"
+    },
+    "label_title_hint": {
+        "cn": "提示",
+        "en": "HINT"
+    },
+    "label_back_to_home_text": {
+        "cn": "距您上次下注已超过5分钟，是否继续游戏？",
+        "en": "It has been more than 5 minutes since you placed your bet. Do you want to continue playing?"
+    },
+    "label_reload_network": {
+        "cn": "{0}秒后重新加载",
+        "en": "Reload in {0} seconds"
+    },
+    "reload_game_text": {
+        "en": "You have disconnected from the network, click to reload",
+        "cn": "您已断开网络，点击重新加载"
+    },
+    "over_max_bet": {
+        "cn": "投注达到上限",
+        "en": "Bets reached limit"
+    },
+    "coin_not_enough": {
+        "cn": "账户余额不足",
+        "en": "Insufficient account balance"
+    },
+    "label_no_ratio": {
+        "cn": "为回馈新玩家，本房间不抽水，底分{0}",
+        "en": "In order to give back to new players, this room does not pump money, and the bottom score is {0}"
+    },
+    "vip_level_limit": {
+        "cn": "不满足Vip等级",
+        "en": "Not meeting VIP level"
+    },
+    "text_win": {
+        "cn": "赢",
+        "en": "Win"
+    },
+    "text_lost": {
+        "cn": "输",
+        "en": "Lost"
+    },
+    "trans_invest": {
+        "cn": "投资",
+        "en": "invest"
+    },
+    "trans_profit": {
+        "cn": "收益",
+        "en": "gain"
+    },
+    "game_record": {
+        "cn": "游戏记录",
+        "en": "Game Record"
+    },
+    "my_record": {
+        "cn": "我的参与记录",
+        "en": "My Record"
+    },
+    "all_invest": {
+        "cn": "总投资",
+        "en": "Total Investment"
+    },
+    "all_profit": {
+        "cn": "总收益",
+        "en": "Total Profit"
+    },
+    "my_choice": {
+        "cn": "我的选择",
+        "en": "My Choice"
+    },
+    "last_week_rank": {
+        "cn": "上周排行",
+        "en": "Last Week's Rank"
+    },
+    "this_week_rank": {
+        "cn": "本周排行",
+        "en": "This Week's Rank"
+    },
+    "rand_and_user": {
+        "cn": "排行/用户",
+        "en": "Rank/User"
+    },
+    "not_on_the_rank_list": {
+        "cn": "未上榜",
+        "en": "Not on the list"
+    },
+    "label_music": {
+        "cn": "音乐",
+        "en": "Music"
+    },
+    "sound_effect": {
+        "cn": "音效",
+        "en": "Sound effects"
+    },
+    "label_title_settings": {
+        "cn": "设置",
+        "en": "Settings"
+    },    
+    "label_player": {
+        "cn": "恭喜玩家",
+        "en": "Congratulations to the player"
+    },
+    "label_at": {
+        "cn": "在",
+        "en": "at"
+    },
+    "label_won": {
+        "cn": "大赢特赢，获得",
+        "en": "Huge win, acquired"
+    },
+    "label_diamon": {
+        "cn": "钻石。",
+        "en": "Diamonds."
+    },
+    "danmu": {
+        "cn": "弹幕",
+        "en": "Barrage"
+    },
+    "danmu_tip": {
+        "cn": "输入信息...",
+        "en": "Input information..."
+    },
+    "Sensitive_word": {
+        "cn": "发送内容包含敏感词汇",
+        "en": "The content contains sensitive words."
+    },
+    "danmu_disable": {
+        "cn": "弹幕功能已关闭",
+        "en": "The barrage is turned off."
+    }
+
+    
+}
