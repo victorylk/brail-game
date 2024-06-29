@@ -18,13 +18,21 @@ cc.Class({
         this.addEvent();
     },
 
+    getUrlCode_Function(name) {
+        var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
+        var result = window.location.search.substr(1).match(reg);
+        return result ? decodeURIComponent(result[2]) : null;
+    },
 
     addEvent() {
         this.socket.on('connected', () => {
+            let t = this.getUrlCode_Function('t')
             this.socket.emit('LoginGame', JSON.stringify({
                 userid: this.playerInfo.playerId,
                 gametype: null,
-                sign: this.playerInfo.gameSign
+                sign: this.playerInfo.gameSign,
+                token: t,
+                loginIp: this.playerInfo.loginIp
             }));
         });
 

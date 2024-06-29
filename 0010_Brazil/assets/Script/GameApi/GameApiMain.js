@@ -276,6 +276,10 @@ cc.Class({
                 // window.fortunerabbit_LOBBYNET = lobbySocket;
                 this.QieHuanScene('Slot_fortunerabbit');
                 break;
+            case "263":
+                // window.fortunerabbit_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_ganeshagold');
+                break;
         }
     },
 
