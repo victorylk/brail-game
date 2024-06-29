@@ -17,7 +17,7 @@ export class LabelTranslator extends cc.Component {
         
         // console.log("need translate label:", this.key, GameGlobal.LANG,  GameGlobal.translateObject[String(this.key)])
         if (GameGlobal.translateObject[String(this.key)])
-            this.setLabelFormat(GameGlobal.translateObject[String(this.key)][GameGlobal.LANG])
+            this.node.getComponent(cc.Label).string = GameGlobal.translateObject[String(this.key)][GameGlobal.LANG]
         else {
                     console.warn("key", this.key)
         }
@@ -25,25 +25,7 @@ export class LabelTranslator extends cc.Component {
     start() {
     }
 
-    setLabelFormat(format: string) {
-        // console.log("key", this.key)
-        // console.log("setLabelFormat", this.format)
-        this.format = format;
-        this.node.getComponent(cc.Label).string = this.formatString(this.format, ...this.value)
-    }
-
-    setLabelValue(label: string[]) {
-        this.value = []
-        this.value.push(...label);
-        this.node.getComponent(cc.Label).string = this.formatString(this.format, ...this.value)
-    }
-
-    formatString(str: string, ...args: any[]): string {
-        return str.replace(/\{(\d+)\}/g, (match, index) => {
-            return typeof args[index] !== "undefined" ? args[index] : match;
-        });
-    }
-
+  
 }
 
 
