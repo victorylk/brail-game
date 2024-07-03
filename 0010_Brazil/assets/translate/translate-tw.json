@@ -1,0 +1,238 @@
+﻿{
+    "KEY_CLOSE": {
+        "zh-TW": "退出"
+    },
+    "kill_appear_after_sceonds": {
+        "zh-TW": "{0}秒後殺手出現"
+    },
+    "start_up_condition_label": {
+        "zh-TW": "滿人即開局"
+    },
+    "record": {
+        "zh-TW": "記錄"
+    },
+    "rank": {
+        "zh-TW": "排行榜"
+    },
+    "add_chip": {
+        "zh-TW": "投入寶石"
+    },
+    "cur_balance": {
+        "zh-TW": "目前帳戶剩餘{0}"
+    },
+    "title_game": {
+        "zh-TW": "大逃殺"
+    },
+    "turns_count": {
+        "zh-TW": "{0}期"
+    },
+    "settlement_title_lost": {
+        "zh-TW": "躲避殺手失敗"
+    },
+    "settlement_tip_lost": {
+        "zh-TW": "殺手殺死了躲在{0}的人"
+    },
+    "settlement_title_win": {
+        "zh-TW": "躲避殺手成功"
+    },
+    "settlement_tip_win": {
+        "zh-TW": "本期投入寶石{0}，獲得{1}"
+    },
+    "kill_apear": {
+        "zh-TW": "殺手出現!!"
+    },
+    "killer": {
+        "zh-TW": "殺手"
+    },
+    "selfplayer": {
+        "zh-TW": "自己"
+    },
+    "title_room_1": {
+        "zh-TW": "置物室"
+    },
+    "title_room_2": {
+        "zh-TW": "休息室"
+    },
+    "title_room_3": {
+        "zh-TW": "經理室"
+    },
+    "title_room_4": {
+        "zh-TW": "談話室"
+    },
+    "title_room_5": {
+        "zh-TW": "洗衣房"
+    },
+    "title_room_6": {
+        "zh-TW": "工作室"
+    },
+    "title_room_7": {
+        "zh-TW": "茶水間"
+    },
+    "title_room_8": {
+        "zh-TW": "音樂室"
+    },
+    "pick_a_room_to_hide": {
+        "zh-TW": "選一個房間躲藏"
+    },
+    "room_access": {
+        "zh-TW": "准入: {0}"
+    },
+    "room_point": {
+        "zh-TW": "分數: {0}"
+    },
+    "room_1_tittle": {
+        "zh-TW": "初級房"
+    },
+    "room_2_tittle": {
+        "zh-TW": "中級房"
+    },
+    "room_3_tittle": {
+        "zh-TW": "高級房"
+    },
+    "room_4_tittle": {
+        "zh-TW": "貴賓房"
+    },
+    "loading_text": {
+        "zh-TW": "努力加載中{0}"
+    },
+    "tip_game_1": {
+        "zh-TW": "趕快選擇一個房間躲起來吧！"
+    },
+    "tip_game_2": {
+        "zh-TW": "成功躲避殺手還有獎勵！"
+    },
+    "tip_game_3": {
+        "zh-TW": "上一期兇手去了{0}號房間"
+    },
+    "no_bet_turn": {
+        "zh-TW": "還沒到下注時間"
+    },
+    "not_access": {
+        "zh-TW": "未到達准入金額"
+    },
+    "net_work_anomaly": {
+        "zh-TW": "網路例外"
+    },
+    "player_is_walking": {
+        "zh-TW": "玩家正在走"
+    },
+    "settleing": {
+        "zh-TW": "停止下注，等待結算！"
+    },
+    "label_back_to_home": {
+        "zh-TW": "{0}秒後回傳首頁"
+    },
+    "label_title_hint": {
+        "zh-TW": "提示"
+    },
+    "label_back_to_home_text": {
+        "zh-TW": "距離您下注已經過去 5 分鐘多了。 你想繼續玩嗎？"
+    },
+    "label_reload_network": {
+        "zh-TW": "{0}秒後重新載入"
+    },
+    "reload_game_text": {
+        "zh-TW": "您已斷開網絡，點擊重新加載"
+    },
+    "over_max_bet": {
+        "zh-TW": "投注達到上限"
+    },
+    "coin_not_enough": {
+        "zh-TW": "帳戶餘額不足"
+    },
+    "label_no_ratio": {
+        "zh-TW": "為回饋新玩家，本房間不抽水，底分{0}"
+    },
+    "vip_level_limit": {
+        "zh-TW": "不滿足Vip等級"
+    },
+    "text_win": {
+        "zh-TW": "贏"
+    },
+    "text_lost": {
+        "zh-TW": "輸"
+    },
+    "trans_invest": {
+        "zh-TW": "投資"
+    },
+    "trans_profit": {
+        "zh-TW": "收益"
+    },
+    "game_record": {
+        "zh-TW": "遊戲記錄"
+    },
+    "last_100_kill": {
+        "zh-TW": "近100期殺戮記錄"
+    },
+    "last_10_kill_room": {
+        "zh-TW": "近10期殺手進入房間"
+    },
+    "my_record": {
+        "zh-TW": "我的參與記錄"
+    },
+    "all_invest": {
+        "zh-TW": "總投資"
+    },
+    "all_profit": {
+        "zh-TW": "總收益"
+    },
+    "my_choice": {
+        "zh-TW": "我的選擇"
+    },
+    "killer_choice": {
+        "zh-TW": "殺手選擇"
+    },
+    "last_week_rank": {
+        "zh-TW": "上週排行"
+    },
+    "this_week_rank": {
+        "zh-TW": "本週排行"
+    },
+    "rand_and_user": {
+        "zh-TW": "排行/用戶"
+    },
+    "award_amount": {
+        "zh-TW": "獎勵寶石數量"
+    },
+    "not_on_the_rank_list": {
+        "zh-TW": "未上榜"
+    },
+    "ranking_title": {
+        "zh-TW": "勇奪周排行榜"
+    },
+    "label_music": {
+        "zh-TW": "音樂"
+    },
+    "sound_effect": {
+        "zh-TW": "音效"
+    },
+    "label_title_settings": {
+        "zh-TW": "設定"
+    },
+    "label_player": {
+        "zh-TW": "恭喜玩家"
+    },
+    "label_at": {
+        "zh-TW": "在"
+    },
+    "label_won": {
+        "zh-TW": "大贏特贏，獲得"
+    },
+    "label_diamon": {
+        "zh-TW": "鑽石"
+    },
+    "danmu": {
+        "zh-TW": "弹幕"
+    },
+    "danmu_tip": {
+        "zh-TW": "輸入信息..."
+    },
+    "Sensitive_word": {
+        "zh-TW": "發送內容包含敏感詞彙"
+      },
+      "danmu_disable": {
+        "zh-TW": "彈幕功能已關閉"
+      }
+    
+
+}
