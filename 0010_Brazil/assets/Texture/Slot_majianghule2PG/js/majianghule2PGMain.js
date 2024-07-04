@@ -123,7 +123,7 @@ cc.Class({
         this.stopFree = false;
         this.isFreeStart = false;
         this.isFreeEnd = false;
-
+        this.isTimeOut = false;
         // if (GameGlobal.LANG == 'cn') {
         //     this.helpUI.children[2].active = true
         //     this.help2UI.children[2].active = true
@@ -313,7 +313,7 @@ cc.Class({
         this.winNode.children[1].active = false;
         this.winNode.children[2].active = true;
         this.winNode.getChildByName("lab").getComponent(cc.Label).string = Helper.fixNum(this.winTotal);
-        if (this.lotteryRes.getFreeTime.bFlag) {
+        if (this.lotteryRes && this.lotteryRes.getFreeTime.bFlag) {
             this.bIsFreeGame = true;
             this.auto = false;
             this.freeTimes = this.lotteryRes.getFreeTime.nFreeTime - 1;
@@ -676,6 +676,8 @@ cc.Class({
         if (!this.auto) {
             this.slotCtrl.Btn_start.getComponent(cc.Button).interactable = true;
         }
+
+        this.isTimeOut = false
         this.status = 1;
         for (let i in this.wheelList) {
             this.wheelList[i].startRoll(...line[i]);
@@ -717,6 +719,21 @@ cc.Class({
             bet: this.bet,
             nBetList: [this.betSum]
         }));
+
+        this.isTimeOut = true
+        setTimeout(() => {
+            if (this.isTimeOut) {
+                this.timeoutReset() 
+            }
+            
+            this.isTimeOut = false
+        }, 2000);
+    },
+
+    timeoutReset() {
+        this.slotCtrl.Btn_start.getComponent(cc.Button).interactable = true;
+        this.unscheduleAllCallbacks();
+        this.rollEnd();
     },
 
     stopImmediately() {

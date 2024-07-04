@@ -1,3 +1,6 @@
+import { GameGlobal } from "./../../../Script/utils/GameGlobal";
+
+
 cc.Class({
     extends: cc.Component,
 
@@ -223,13 +226,18 @@ cc.Class({
         this.val2 = this.betList[0];
         this.val3 = this.numList[0] * this.betList[0] * this.line;
 
+        let strDollor = "$"
+        if (GameGlobal.LANG == 'cn') {
+            strDollor = "¥"
+        }
+
         let c1 = this.chooseBet_list1.getComponent(cc.PageView).content;
         c1.removeAllChildren();
         for (let i = 0; i < numList.length; i++) {
             let newNode = cc.instantiate(this.chooseBet_pb);
             newNode.children[0].active = (i == 0);
             newNode.children[1].active = (i == numList.length - 1);
-            newNode.getComponent(cc.Label).string = "R$" + Helper.fixNum(numList[i]);
+            newNode.getComponent(cc.Label).string = strDollor + Helper.fixNum(numList[i]);
             newNode.valNum = numList[i];
             c1.addChild(newNode);
         }
@@ -262,7 +270,7 @@ cc.Class({
             let newNode = cc.instantiate(this.chooseTotalBet_pb);
             newNode.children[0].active = (i == 0);
             newNode.children[1].active = (i == sumList.length - 1);
-            newNode.getComponent(cc.Label).string = "R$" + Helper.fixNum(sumList[i]);
+            newNode.getComponent(cc.Label).string = strDollor + Helper.fixNum(sumList[i]);
             newNode.valNum = sumList[i];
             c3.addChild(newNode);
         }
