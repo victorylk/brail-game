@@ -1,4 +1,38 @@
 ﻿{
+    "KEY_BET_SETTING": {
+        "cn": "投注设置",
+        "en": "Betting settings"
+    },
+
+    "KEY_BET_SIZE": {
+        "cn": "投注大小",
+        "en": "Bet size"
+    },
+
+    "KEY_BET_MULTI": {
+        "cn": "投注倍数",
+        "en": "Bet multiplier"
+    },
+
+    "KEY_BET_BASE": {
+        "cn": "基础投注",
+        "en": "Basic bet"
+    },
+    "KEY_BET_TOTAL": {
+        "cn": "投注总额",
+        "en": "Total bet"
+    },
+
+    "KEY_BET_MAX": {
+        "cn": "最大投注",
+        "en": "Max bet"
+    },
+
+    "KEY_SURE": {
+        "cn": "确定",
+        "en": "OK"
+    },
+
     "KEY_CLOSE": {
         "cn": "退出",
         "en": "exit"
@@ -18,6 +52,11 @@
     "KEY_RECORD": {
         "cn": "记录",
         "en": "record"
+    },
+
+    "KEY_BEGIN": {
+        "cn": "开始",
+        "en": "READY"
     },
 
     "KEY_RECORD_TITLE": {
