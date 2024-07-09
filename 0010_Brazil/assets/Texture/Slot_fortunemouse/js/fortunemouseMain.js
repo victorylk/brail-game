@@ -149,14 +149,14 @@ cc.Class({
         this.bIsFreeGame = false;
         this.delayClick = false;
 
-        // if (GameGlobal.LANG == 'cn') {
-        //     this.helpUI.children[2].active = true
-        //     this.help2UI.children[2].active = true
-        // }
-        // else {
-        //     this.helpUI.children[3].active = true
-        //     this.help2UI.children[3].active = true
-        // }
+        if (GameGlobal.LANG == 'cn') {
+            this.helpUI.children[2].active = true
+            this.help2UI.children[2].active = true
+        }
+        else {
+            this.helpUI.children[3].active = true
+            this.help2UI.children[3].active = true
+        }
     },
 
     start() {

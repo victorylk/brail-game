@@ -1,3 +1,5 @@
+import { GameGlobal } from '../utils/GameGlobal';
+
 cc.Class({
     extends: cc.Component,
 
@@ -246,18 +248,34 @@ cc.Class({
                 // self.netWork.netWorkInit_Function(t);
             });
         };
+
+        // var nGameid = this.getBrowserValue("gameId")
+        // switch (nGameid) {
+        //     case '268':
+
+        // }
+
+
+        // if (_GameGlobal.GameGlobal.LANG == 'cn') {
+            
+        // } else {
+            
+        //   }
     },
 
     onLoginSeverSuccess() {
         var nGameid = this.getBrowserValue("gameId")
+
         switch (nGameid) {
             case '268':
                 // window.fortunetiger_LOBBYNET = this.netWork;
+
                 this.QieHuanScene('Slot_fortunetiger');
                 break
 
             case "271": 
                 // window.majianghule2PG_LOBBYNET = lobbySocket;
+
                 this.QieHuanScene('Slot_majianghule2PG');
                 break;
             case "264":
@@ -279,6 +297,10 @@ cc.Class({
             case "263":
                 // window.fortunerabbit_LOBBYNET = lobbySocket;
                 this.QieHuanScene('Slot_ganeshagold');
+                break;
+            case "262":
+                // window.fortunerabbit_LOBBYNET = lobbySocket;
+                this.QieHuanScene('Slot_majianghulePG');
                 break;
         }
     },
@@ -320,35 +342,91 @@ cc.Class({
     },
 
     QieHuanScene: function (sceneName) {
-        cc.find("Canvas/logo_loading").active = true;
-        this.scheduleOnce(() => {
-            // cc.find("Canvas/logo_loading").active = false;
-            cc.loader.loadRes("gameLoading/" + sceneName, function (err, prefab) {
-                cc.loader.setAutoReleaseRecursively(prefab, true);
-                let newNode = cc.instantiate(prefab);
-                cc.find("Canvas").addChild(newNode);
-                let loadingNode = newNode;
-                loadingNode.active = true; //点亮加载游戏界面
-                let progressBarNode = loadingNode.getChildByName('loadingProgressBar');
-                let loadTxt = cc.find("pb_Loading_txt", progressBarNode);
-                //初始化
-                progressBarNode.getComponent(cc.ProgressBar).progress = 0;
-                loadTxt.getComponent(cc.Label).string = 0 + "%";
-                this.p = 0;
-                cc.director.preloadScene(sceneName, (completedCount, totalCount, item) => { //预加载场景&监听加载进度
-                    if (this.p < completedCount / totalCount) {
-                        let loadProgress = completedCount / totalCount;
-                        this.p = loadProgress;
-                        progressBarNode.getComponent(cc.ProgressBar).progress = loadProgress;
-                        loadTxt.getComponent(cc.Label).string = (loadProgress * 100).toFixed(0) + "%";
-                    }
-                }, (err, scene) => {
-                    // loadingNode.active = false; //隐藏加载游戏界面
-                    cc.audioEngine.stopAll();
-                    cc.director.loadScene(sceneName);
-                });
-            }.bind(this));
-        }, 3);
+        let newbg = cc.find("Canvas/newbg")
+        let url = 'newbg/' + sceneName // + '.jpg'
+        var spr = newbg.getComponent(cc.Sprite);
+        if (spr) {
+            cc.resources.load(url, cc.SpriteFrame, (err, spriteFrame) => {
+                // if (self.line_sp) {
+                //     self.line_sp.spriteFrame = spriteFrame;
+                //     self.line_sp.node.active = true;
+                // }
+
+                // var spriteFrame = new cc.SpriteFrame(tex, cc.Rect(0, 0, 2500, 1638));
+                // spriteFrame.setRect(cc.rect(0, 0, 2500, 1638))
+                spr.spriteFrame = spriteFrame
+                // newbg.width = 2500
+                // newbg.height = 1638
+                newbg.active = true
+                cc.find("Canvas/logo_loading").active = true;
+                this.scheduleOnce(() => {
+                    // cc.find("Canvas/logo_loading").active = false;
+                    cc.loader.loadRes("gameLoading/" + sceneName, function (err, prefab) {
+                        cc.loader.setAutoReleaseRecursively(prefab, true);
+                        let newNode = cc.instantiate(prefab);
+                        cc.find("Canvas").addChild(newNode);
+                        let loadingNode = newNode;
+                        loadingNode.active = true; //点亮加载游戏界面
+                        let progressBarNode = loadingNode.getChildByName('loadingProgressBar');
+                        let loadTxt = cc.find("pb_Loading_txt", progressBarNode);
+                        //初始化
+                        progressBarNode.getComponent(cc.ProgressBar).progress = 0;
+                        loadTxt.getComponent(cc.Label).string = 0 + "%";
+                        this.p = 0;
+                        cc.director.preloadScene(sceneName, (completedCount, totalCount, item) => { //预加载场景&监听加载进度
+                            if (this.p < completedCount / totalCount) {
+                                let loadProgress = completedCount / totalCount;
+                                this.p = loadProgress;
+                                progressBarNode.getComponent(cc.ProgressBar).progress = loadProgress;
+                                loadTxt.getComponent(cc.Label).string = (loadProgress * 100).toFixed(0) + "%";
+                            }
+                        }, (err, scene) => {
+                            // loadingNode.active = false; //隐藏加载游戏界面
+                            cc.audioEngine.stopAll();
+                            cc.director.loadScene(sceneName);
+                        });
+                    }.bind(this));
+                }, 3);
+            });
+
+            // cc.loader.loadResDir(url, cc.SpriteFrame, (err, tTex) => {
+            //     var tex = tTex[0]
+            //     var spriteFrame = new cc.SpriteFrame(tex, cc.Rect(0, 0, 2500, 1638));
+            //     spr.spriteFrame = spriteFrame
+            //     newbg.active = true
+            //     cc.find("Canvas/logo_loading").active = true;
+            //     this.scheduleOnce(() => {
+            //         // cc.find("Canvas/logo_loading").active = false;
+            //         cc.loader.loadRes("gameLoading/" + sceneName, function (err, prefab) {
+            //             cc.loader.setAutoReleaseRecursively(prefab, true);
+            //             let newNode = cc.instantiate(prefab);
+            //             cc.find("Canvas").addChild(newNode);
+            //             let loadingNode = newNode;
+            //             loadingNode.active = true; //点亮加载游戏界面
+            //             let progressBarNode = loadingNode.getChildByName('loadingProgressBar');
+            //             let loadTxt = cc.find("pb_Loading_txt", progressBarNode);
+            //             //初始化
+            //             progressBarNode.getComponent(cc.ProgressBar).progress = 0;
+            //             loadTxt.getComponent(cc.Label).string = 0 + "%";
+            //             this.p = 0;
+            //             cc.director.preloadScene(sceneName, (completedCount, totalCount, item) => { //预加载场景&监听加载进度
+            //                 if (this.p < completedCount / totalCount) {
+            //                     let loadProgress = completedCount / totalCount;
+            //                     this.p = loadProgress;
+            //                     progressBarNode.getComponent(cc.ProgressBar).progress = loadProgress;
+            //                     loadTxt.getComponent(cc.Label).string = (loadProgress * 100).toFixed(0) + "%";
+            //                 }
+            //             }, (err, scene) => {
+            //                 // loadingNode.active = false; //隐藏加载游戏界面
+            //                 cc.audioEngine.stopAll();
+            //                 cc.director.loadScene(sceneName);
+            //             });
+            //         }.bind(this));
+            //     }, 3);
+            // });
+        }
+        
+
 
     },
 

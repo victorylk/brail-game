@@ -124,14 +124,12 @@ cc.Class({
         this.isFreeStart = false;
         this.isFreeEnd = false;
         this.isTimeOut = false;
-        // if (GameGlobal.LANG == 'cn') {
-        //     this.helpUI.children[2].active = true
-        //     this.help2UI.children[2].active = true
-        // }
-        // else {
-        //     this.helpUI.children[3].active = true
-        //     this.help2UI.children[3].active = true
-        // }
+        if (GameGlobal.LANG == 'cn') {
+            cc.find("Canvas/GameSplash/splash_cn").active = true
+        }
+        else {
+            cc.find("Canvas/GameSplash/splash_en").active = true
+        }
     },
 
     getUrlCode_Function(name) {

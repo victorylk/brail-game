@@ -36,6 +36,15 @@ cc.Class({
             }));
         });
 
+        this.socket.on('disconnect', () => {
+            console.log(`与服务器断开连接`);
+            
+        });
+
+        this.socket.on('reconnect', (attempt) => {
+            console.log(`断线重连`);
+        });
+
         this.socket.on('loginGameResult', data => {
             data = this.changeResultJSON_Function(data);
             console.log('LoginGameResult:', data);
