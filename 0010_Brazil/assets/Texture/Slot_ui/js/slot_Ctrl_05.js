@@ -575,6 +575,15 @@ cc.Class({
         this.bigWinNode.children[0].active = true;
         this.bigWinNode.children[1].active = false;
         this.bigWinNode.children[2].active = false;
+
+        if (GameGlobal.LANG == 'cn') {
+            cc.find("bw_cn", this.bigWinNode.children[0]).active = true
+        }
+        else {
+            cc.find("bw", this.bigWinNode.children[0]).active = true
+        }
+
+
         if (this.bigWinNode.children[0].getComponent(cc.Animation)) {
             this.bigWinNode.children[0].getComponent(cc.Animation).play();
         }
@@ -588,6 +597,14 @@ cc.Class({
         this.bigWinNode.children[0].active = false;
         this.bigWinNode.children[1].active = true;
         this.bigWinNode.children[2].active = false;
+
+        if (GameGlobal.LANG == 'cn') {
+            cc.find("bw_cn", this.bigWinNode.children[1]).active = true
+        }
+        else {
+            cc.find("bw", this.bigWinNode.children[1]).active = true
+        }
+
         if (this.bigWinNode.children[1].getComponent(cc.Animation)) {
             this.bigWinNode.children[1].getComponent(cc.Animation).play();
         }
@@ -600,6 +617,14 @@ cc.Class({
         this.bigWinNode.children[0].active = false;
         this.bigWinNode.children[1].active = false;
         this.bigWinNode.children[2].active = true;
+
+        if (GameGlobal.LANG == 'cn') {
+            cc.find("bw_cn", this.bigWinNode.children[2]).active = true
+        }
+        else {
+            cc.find("bw", this.bigWinNode.children[2]).active = true
+        }
+
         if (this.bigWinNode.children[2].getComponent(cc.Animation)) {
             this.bigWinNode.children[2].getComponent(cc.Animation).play();
         }

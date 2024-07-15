@@ -269,7 +269,6 @@ cc.Class({
         switch (nGameid) {
             case '268':
                 // window.fortunetiger_LOBBYNET = this.netWork;
-
                 this.QieHuanScene('Slot_fortunetiger');
                 break
 
@@ -365,6 +364,17 @@ cc.Class({
                         cc.loader.setAutoReleaseRecursively(prefab, true);
                         let newNode = cc.instantiate(prefab);
                         cc.find("Canvas").addChild(newNode);
+
+                        if (GameGlobal.LANG == 'cn') {
+                            cc.find("splashcn", newNode).active = true
+                            cc.find("pb_Loading_txtxcn", newNode).active = true
+                        }
+                        else {
+                            cc.find("splash", newNode).active = true
+                            cc.find("pb_Loading_txtx", newNode).active = true
+                        }
+
+
                         let loadingNode = newNode;
                         loadingNode.active = true; //点亮加载游戏界面
                         let progressBarNode = loadingNode.getChildByName('loadingProgressBar');

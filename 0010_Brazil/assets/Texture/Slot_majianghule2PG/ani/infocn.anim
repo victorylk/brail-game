@@ -1,0 +1,163 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "infocn",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 48,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "info0": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 2.75,
+              "value": 0
+            },
+            {
+              "frame": 3,
+              "value": 255
+            }
+          ],
+          "x": [
+            {
+              "frame": 3,
+              "value": 374
+            },
+            {
+              "frame": 8,
+              "value": -374
+            }
+          ]
+        }
+      },
+      "info1": {
+        "props": {
+          "x": [
+            {
+              "frame": 11,
+              "value": -300
+            },
+            {
+              "frame": 16,
+              "value": -1100
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 10.75,
+              "value": 0
+            },
+            {
+              "frame": 11,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "info2": {
+        "props": {
+          "x": [
+            {
+              "frame": 19,
+              "value": -300
+            },
+            {
+              "frame": 24,
+              "value": -1700
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 18.75,
+              "value": 0
+            },
+            {
+              "frame": 19,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "info3": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 26.75,
+              "value": 0
+            },
+            {
+              "frame": 27,
+              "value": 255
+            }
+          ],
+          "x": [
+            {
+              "frame": 27,
+              "value": -300
+            },
+            {
+              "frame": 32,
+              "value": -1200
+            }
+          ]
+        }
+      },
+      "Info4": {
+        "props": {
+          "x": [
+            {
+              "frame": 34.766666666666666,
+              "value": -300
+            },
+            {
+              "frame": 35,
+              "value": -303
+            },
+            {
+              "frame": 40,
+              "value": -1420
+            }
+          ],
+          "opacity": [
+            {
+              "frame": 34.75,
+              "value": 0
+            },
+            {
+              "frame": 35,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "info5": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 42.75,
+              "value": 0
+            },
+            {
+              "frame": 43,
+              "value": 255
+            }
+          ],
+          "x": [
+            {
+              "frame": 43,
+              "value": 360
+            },
+            {
+              "frame": 48,
+              "value": -400
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

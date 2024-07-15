@@ -76,6 +76,11 @@ cc.Class({
             type: cc.Node,
             displayName: '滚屏提示',
         },
+        tipCnNode: {
+            default: null,
+            type: cc.Node,
+            displayName: '中文滚屏提示',
+        },
         winNode: {
             default: null,
             type: cc.Node,
@@ -111,6 +116,7 @@ cc.Class({
         this.sumIdx = 0;
         this.betSum = 0;//累计下注计算
         this.auto = false;
+        this.bContinueAuto = false
         this.status = 0;
         this.bigWinBoo = false;
         this.freeTimes = 0;
@@ -126,10 +132,13 @@ cc.Class({
         this.isTimeOut = false;
         if (GameGlobal.LANG == 'cn') {
             cc.find("Canvas/GameSplash/splash_cn").active = true
+            this.tipCnNode.active = true
         }
         else {
             cc.find("Canvas/GameSplash/splash_en").active = true
+            this.tipNode.active = true;
         }
+        
     },
 
     getUrlCode_Function(name) {
@@ -321,6 +330,7 @@ cc.Class({
                 this.startFreeGame();
             }, 3);
         }
+        
         this.status = 0;
         let rIndex = this.rollIndex;
         this.slotCtrl.setSpinAnim(0);
@@ -330,7 +340,20 @@ cc.Class({
                 this.stopFreeTimes();
                 this.auto = false;
             }
-            this.tipNode.active = true;
+
+            if (this.bContinueAuto && !this.auto) {
+                // this.bContinueAuto = false
+                // this.auto = true;
+                // console.log(rIndex + '输出 ' + this.rollIndex)
+            }
+
+            if (GameGlobal.LANG == 'cn') {
+                this.tipCnNode.active = true
+            }
+            else {
+                this.tipNode.active = true;
+            }
+            
             this.winNode.active = false;
             if (this.auto && !this.status && this.freeTimes > 0) {
                 this.freeTimes--;
@@ -342,6 +365,8 @@ cc.Class({
                 }
                 this.sendRoll();
             }
+
+            // console.log(this.rollIndex + '数据比较 ' +rIndex)
             if (rIndex == this.rollIndex) {
                 this.auto && this.freeTimes == 0 && this.sendRoll();
             }
@@ -358,6 +383,8 @@ cc.Class({
                 allLine.push(i);
             }
         }
+
+        // this.slotCtrl.playAnim_MegaWin(100);
         let lines = this.lotteryView.nWinLinesDetail;
         let rIndex = this.rollIndex;
         let list = (this.freeTimes > 0 || this.stopFree) ? [allLine] : [allLine, ...lines];
@@ -377,6 +404,8 @@ cc.Class({
             } else {
                 this.slotCtrl.playAnimWin(0, this.lotteryRes.winscore, wl);
             }
+
+            this.tipCnNode.active = false
             this.tipNode.active = false;
             this.winNode.active = true;
             this.winNode.children[1].active = true;
@@ -429,6 +458,9 @@ cc.Class({
     //免费次数有关
     startFreeGame() {
         console.log("start free game !!!!");
+        if (this.auto) {
+            this.bContinueAuto = true
+        }
 
         this.audio.playBgm(1);
         this.auto = false;
@@ -731,6 +763,7 @@ cc.Class({
     timeoutReset() {
         this.slotCtrl.Btn_start.getComponent(cc.Button).interactable = true;
         this.unscheduleAllCallbacks();
+        this.auto = false
         this.rollEnd();
     },
 
