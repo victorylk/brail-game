@@ -297,7 +297,7 @@ cc.Class({
                 // window.fortunerabbit_LOBBYNET = lobbySocket;
                 this.QieHuanScene('Slot_ganeshagold');
                 break;
-            case "262":
+            case "269":
                 // window.fortunerabbit_LOBBYNET = lobbySocket;
                 this.QieHuanScene('Slot_majianghulePG');
                 break;
@@ -364,7 +364,7 @@ cc.Class({
                         cc.loader.setAutoReleaseRecursively(prefab, true);
                         let newNode = cc.instantiate(prefab);
                         cc.find("Canvas").addChild(newNode);
-
+                        cc.find("Canvas/logo_loading").active = false;
                         if (GameGlobal.LANG == 'cn') {
                             cc.find("splashcn", newNode).active = true
                             cc.find("pb_Loading_txtxcn", newNode).active = true

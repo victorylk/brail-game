@@ -429,14 +429,18 @@ cc.Class({
         this.scheduleOnce(() => {
             this.isPanelAnim = false;
         }, 0.5);
+
+        // console.log('初始y坐标 ' +  this.chooseBet_panel.y)
+        this.chooseBet_panel.stopAllActions()
         if (type == 0) {
-            this.chooseBet_panel.runAction(cc.sequence(cc.moveBy(0.2, 0, -756), cc.callFunc(() => {
+            this.chooseBet_panel.runAction(cc.sequence(cc.moveTo(0.2, 0, -1771.5), cc.callFunc(() => {
                 this.chooseBet_panel.active = false;
+                // console.log('y坐标隐藏 ' +  this.chooseBet_panel.y)
             })));
         } else {
             this.chooseBet_panel.active = true;
-            this.chooseBet_list1.getComponent(cc.PageView).setCurrentPageIndex(this.mainJs.betNum);
-            this.chooseBet_list2.getComponent(cc.PageView).setCurrentPageIndex(this.mainJs.bet);
+            this.chooseBet_list1.getComponent(cc.PageView).setCurrentPageIndex(this.mainJs.betNum || 0);
+            this.chooseBet_list2.getComponent(cc.PageView).setCurrentPageIndex(this.mainJs.bet || 0);
             //更新指示器位置
             let c3 = this.chooseBet_list3.getComponent(cc.PageView).content;
             for (let i = 0; i < c3.children.length; i++) {
@@ -446,8 +450,9 @@ cc.Class({
                     break;
                 }
             }
-            this.chooseBet_panel.runAction(cc.sequence(cc.moveBy(0.2, 0, 756), cc.callFunc(() => {
 
+            this.chooseBet_panel.runAction(cc.sequence(cc.moveTo(0.2, 0, -259.5), cc.callFunc(() => {
+                // console.log('y坐标显示 ' +  this.chooseBet_panel.y)
             })));
         }
     },

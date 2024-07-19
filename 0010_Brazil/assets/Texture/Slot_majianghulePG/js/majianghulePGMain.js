@@ -1,3 +1,7 @@
+
+import { GameGlobal } from "./../../../Script/utils/GameGlobal";
+
+
 const BETNUM = [2, 10, 50]; //单注值
 const LINES = 20; //线数
 const BET = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -122,6 +126,21 @@ cc.Class({
         this.stopFree = false;
         this.isFreeStart = false;
         this.isFreeEnd = false;
+
+        if (GameGlobal.LANG == 'cn') {
+            this.helpUI.children[2].active = true
+            this.help2UI.children[2].active = true
+            cc.find("Canvas/GameSplash/splash_cn").active = true
+            // this.tipCnNode.active = true
+        }
+        else {
+            this.helpUI.children[3].active = true
+            this.help2UI.children[3].active = true
+            cc.find("Canvas/GameSplash/splash_en").active = true
+            // this.tipNode.active = true;
+        }
+
+
     },
 
     start() {
