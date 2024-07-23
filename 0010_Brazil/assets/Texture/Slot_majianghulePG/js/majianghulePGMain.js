@@ -131,12 +131,22 @@ cc.Class({
             this.helpUI.children[2].active = true
             this.help2UI.children[2].active = true
             cc.find("Canvas/GameSplash/splash_cn").active = true
+            cc.find("Canvas/freegame_start/free_spin_won_cn").active = true
+            cc.find("Canvas/freegame_start/freature_loading_cn").active = true
+            cc.find("Canvas/freegame_start/bonus_button/start_cn").active = true
+            cc.find("Canvas/freegame_end/free_spin_won_cn").active = true
+            cc.find("Canvas/freegame_end/bonus_button/start_cn").active = true
             // this.tipCnNode.active = true
         }
         else {
             this.helpUI.children[3].active = true
             this.help2UI.children[3].active = true
             cc.find("Canvas/GameSplash/splash_en").active = true
+            cc.find("Canvas/freegame_start/free_spin_won_en").active = true
+            cc.find("Canvas/freegame_start/freature_loading_en").active = true
+            cc.find("Canvas/freegame_start/bonus_button/start_en").active = true
+            cc.find("Canvas/freegame_end/free_spin_won_en").active = true
+            cc.find("Canvas/freegame_end/bonus_button/start_en").active = true
             // this.tipNode.active = true;
         }
 
